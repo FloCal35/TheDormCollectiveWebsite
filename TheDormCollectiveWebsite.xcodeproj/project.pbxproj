@@ -1,0 +1,75 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		5DFAD1B92DD5440000ECB32B /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5DFAD1B22DD543EB00ECB32B = {
+			isa = PBXGroup;
+			children = (
+				5DFAD1B92DD5440000ECB32B /* index.html */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		5DFAD1B32DD543EB00ECB32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1630;
+			};
+			buildConfigurationList = 5DFAD1B62DD543EB00ECB32B /* Build configuration list for PBXProject "TheDormCollectiveWebsite" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DFAD1B22DD543EB00ECB32B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		5DFAD1B72DD543EB00ECB32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5DFAD1B82DD543EB00ECB32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DFAD1B62DD543EB00ECB32B /* Build configuration list for PBXProject "TheDormCollectiveWebsite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DFAD1B72DD543EB00ECB32B /* Debug */,
+				5DFAD1B82DD543EB00ECB32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DFAD1B32DD543EB00ECB32B /* Project object */;
+}
