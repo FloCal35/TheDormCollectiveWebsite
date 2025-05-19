@@ -15,7 +15,7 @@ header{
     overflow: hidden;
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 70px;
     background-color: black;
 }
 
@@ -29,8 +29,4 @@ img.song{
 }
 div.song{
     background-color: gray;
-}
-body{
-    margin: 0;
-    padding:0;
 }
