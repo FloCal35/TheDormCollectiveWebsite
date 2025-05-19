@@ -1,3 +1,18 @@
 body p{
     color: red;
 }
+
+img.song{
+    border-radius: 15%;
+    max-width: 450px;
+    display: block;
+    margin: auto;
+
+}
+div.song{
+    background-color: gray;
+}
+body{
+    margin: 0;
+    padding:0;
+}
