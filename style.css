@@ -9,7 +9,6 @@ body{
     margin: auto;
 }
 
-
 header{
     top: 0;
     overflow: hidden;
@@ -19,7 +18,6 @@ header{
     background-color: black;
 }
 
-
 img.song{
     border-radius: 15%;
     max-width: 450px;
@@ -27,10 +25,16 @@ img.song{
     margin: auto;
 
 }
+
 div.song{
     background-color: gray;
 }
-body{
-    margin: 0;
-    padding:0;
+
+div.song_info{
+    padding:10%;
 }
+
+h2.inline, p.inline{
+    display:inline;
+}
+
