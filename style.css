@@ -7,6 +7,7 @@ body{
 .center{
     display: block;
     margin: auto;
+    text-align: center;
 }
 
 header{
@@ -16,18 +17,6 @@ header{
     width: 100%;
     height: 72px;
     background-color: black;
-}
-
-img.song{
-    border-radius: 15%;
-    max-width: 450px;
-    display: block;
-    margin: auto;
-
-}
-
-div.song{
-    background-color: gray;
 }
 
 .social{
@@ -43,10 +32,34 @@ div.song{
     background-color: black;
 }
 
+img.song{
+    border-radius: 15%;
+    max-width: 400px;
+    width:50%;
+    display: block;
+    margin: auto;
+
+}
+
+div.song{
+    background-color: gray;
+}
+
+/*big screen(default)*/
 div.song_info{
-    padding:10%;
+    margin-left: 10%;
+    margin-right:10%;
 }
 
 h2.inline, p.inline{
     display:inline;
 }
+
+/*big screen*/
+@media screen and (min-width:900px){
+    div.song_info{
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+}
+
