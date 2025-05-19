@@ -1,6 +1,24 @@
-body p{
-    color: red;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;;
 }
+
+.center{
+    display: block;
+    margin: auto;
+}
+
+
+header{
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
 
 img.song{
     border-radius: 15%;
