@@ -1,0 +1,50 @@
+SONGS
+
+Name: Imperfect
+Release: Jan 24, 2025
+Genre: Pop Ballad
+About:
+
+Name: Man In Space
+Release: Feb 14, 2025
+Genre: Jungle/Drum and Bass
+About:
+
+Name: Darling Girl
+Release: March 28, 2025 (Under Ella Markwald)
+Genre: Pop
+About:
+
+
+
+PEOPLE
+
+Name: Caleb Flores
+Instrument: Voice, Producer/DAW
+Major: Music Production
+About:
+Email: flocal35@outlook.com
+
+Name: Aidan McCarel
+Instrument: Guitar
+Major: Commercial Guitar
+About:
+Email:
+
+Name: Cooper Chu
+Instrument: Producer/DAW
+Major: Audio Engineering Technology
+About:
+Email:
+
+Name: Austin Windau
+Instrument: Bass Guitar
+Major: Commercial Bass Guitar
+About:
+Email:
+
+[Others]
+Name:
+Instrument:
+Major:
+About:
