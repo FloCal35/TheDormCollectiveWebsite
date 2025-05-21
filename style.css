@@ -104,6 +104,15 @@ h2.inline, p.inline{
     display:inline;
 }
 
+div.song_info a {
+    color: white;
+    font-weight: bold;
+}
+
+div.song_info a:hover {
+    text-decoration: underline;
+}
+
 /*big screen*/
 @media screen and (min-width:900px){
     div.song_info{
