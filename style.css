@@ -1,3 +1,8 @@
+/*the main css file for the home page and general universal styling stuff*/
+
+/*
+general styles
+*/
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
@@ -22,6 +27,18 @@ header{
     z-index: top;
 }
 
+p{
+    line-height: 20px;
+}
+
+/*makes different text elements display on the same line (both top and bottom must be of class inline)*/
+.inline{
+    display:inline;
+}
+
+/*
+social media links
+*/
 .social{
     display: flex;
     justify-content: center;
@@ -35,65 +52,9 @@ header{
     background-color: black;
 }
 
-p{
-    line-height: 20px;
-}
-
-img.song{
-    border-radius: 15%;
-    max-width: 400px;
-    width:50%;
-    display: block;
-    margin: auto;
-
-}
-
-div.song{
-    background-image: url("imgs/ImperfectBlur.png");
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-div.song h1{
-    display: block;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 20px;
-    padding: 10px 20px;
-    margin: 20px auto;
-    width: fit-content;
-}
-
-/*big screen(default)*/
-div.song_info{
-    margin-left: 10%;
-    margin-right:10%;
-}
-
-h2.inline, p.inline{
-    display:inline;
-}
-
-div.song_info a {
-    color: white;
-    font-weight: bold;
-}
-
-div.song_info a:hover {
-    text-decoration: underline;
-}
-
-/*big screen*/
-@media screen and (min-width:900px){
-    div.song_info{
-    margin-left: 25%;
-    margin-right: 25%;
-    }
-}
-
-
+/*
+hamburger menu styling
+*/
 .offscreen{
     background-color: black;
     opacity: 70%;
@@ -178,6 +139,9 @@ div.song_info a:hover {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+/*
+manages dropdowns
+*/
 .dropdown-container {
   display: none;
   padding-left: 25px;
@@ -189,6 +153,7 @@ div.song_info a:hover {
   color: white;
   display: block;
 }
+
 .dropdown-container a:hover {
     background-color: #575757;
     border-radius: 5px;
@@ -197,6 +162,9 @@ div.song_info a:hover {
     padding-top:5px; /* here*/
 }
 
+/*
+home screen specific styling
+*/
 .background-img1 {
     background-image: url("imgs/BandGlitch.png");
     background-size: cover;
@@ -214,7 +182,6 @@ div.song_info a:hover {
     overflow: hidden;
 }
 
-
 .background-img1 h1 {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
@@ -222,15 +189,3 @@ div.song_info a:hover {
     padding: 20px;
 }
 
-/*small screen*/
-div.song_info{
-    margin-left: 10%;
-    margin-right:10%;
-}
-
-@media screen and (min-width:900px){
-    div.song_info{
-    margin-left: 25%;
-    margin-right: 25%;
-    }
-}

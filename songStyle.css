@@ -1,0 +1,52 @@
+
+/* styling sheet for the song pages*/
+img.song{
+    border-radius: 15%;
+    max-width: 400px;
+    width:50%;
+    display: block;
+    margin: auto;
+
+}
+
+div.song{
+    background-image: url("imgs/ImperfectBlur.png");/*need to change this by song also!*/
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+div.song h1{
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+div.song_info a {
+    color: white;
+    font-weight: bold;
+}
+
+div.song_info a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*small screen*/
+div.song_info{
+    margin-left: 10%;
+    margin-right:10%;
+}
+/*big screen*/
+@media screen and (min-width:900px){
+    div.song_info{
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+}
