@@ -1,6 +1,7 @@
 const songs = {
     "imperfect":{
         image: "imgs/Imperfect Final.png",
+        blurryImg:"imgs/ImperfectBlur.png",
         title: "Imperfect",
         releaseDate: "January 24, 2025",
         genre: "Pop Ballad",
@@ -9,27 +10,32 @@ const songs = {
         credits:[["Aiden", "Aiden's page","Melody, Acoustic Guitar"], 
             ["Caleb Flores", "Caleb's page link", "Lyrics, Vocals, Production"],
             ["Ella Markwald","Ella's page link","Vocals, Assist in lyrics"],
-            ["Clark Nelson","Clark's page link","Assist in production"]]
+            ["Clark Nelson","Clark's page link","Assist in production"]],
+        links:["https://music.apple.com/us/album/imperfect-single/1792070967","https://open.spotify.com/track/3F99wb5iApVXJKCq2aX8SS?si=a47f49898fa34f64","https://music.youtube.com/watch?v=JncMazDeJXg&si=0eLubj_yjEFITEyO"]
     },
     "darlingGirl":{
         //calebbbbb please filll this in
         image: "imgs/DarlingGirl.jpeg",
+        blurryImg:"imgs/DarlingGirl.jpeg",
         title: "Darling Girl",
         releaseDate: "January 24, 2025",
         genre: "Pop Ballad",
         about:"ella likes girls",
         lyrics:"idk it says darling girl at som point",
-        credits:[("Ella Markwald", "Ella's page link", "Vocals"), ("Caleb Flores", "Caleb's page","production?")]
+        credits:[["Ella Markwald", "Ella's page link", "Vocals"], ["Caleb Flores", "Caleb's page","production?"]],
+        links:["https://music.apple.com/us/song/darling-girl/1802281141","https://open.spotify.com/track/2mqf0xVx8FMzzSKG6wgofP?si=204f4e87941a4a84","https://music.youtube.com/watch?v=8CxzF_N55uY&si=hQbT_YKq-siDjpto"]
     },
     "manInSpace":{
         //calebbbbb please filll this in
         image: "imgs/ManInSpaceFinal.png",
+        blurryImg:"imgs/ManInSpaceFinal.png",
         title: "Man In Space",
         releaseDate: "February 14, 2025",
         genre: "techy instrumental",
         about:"Cooper likes music and space",
         lyrics:"N/A",
-        credits:[("Cooper", "Cooper's page","idk")]
+        credits:[["Cooper", "Cooper's page","idk"]],
+        links:["https://music.apple.com/us/song/man-in-space-close-to-you/1795380990","https://open.spotify.com/track/5soxVCjsuNG7t0iMxI0sXh?si=54bbe34fc54f4d56","https://music.youtube.com/watch?v=6si9U9UFmZc&si=8jE3HBwG4N7kRdQQ"]
     }
 }
 const param = new URLSearchParams(window.location.search);
@@ -38,14 +44,17 @@ const song = songs[param.get("id")];
 /*
 getting elements
 */
+const songDivEl = document.getElementById("imageDiv");
 const imgEl = document.getElementById("songImg");
 const titleEl = document.getElementById("title");
 const detailEls = document.querySelectorAll("p.song_info");
-//to do: worry about links
+const links = document.querySelectorAll("div.social a");
+
 
 /*
 setting elements
 */
+songDivEl.style.backgroundImage = `url('${song.blurryImg}')`;
 imgEl.src = song.image;
 titleEl.innerHTML = song.title;
 console.log(detailEls.entries);
@@ -57,3 +66,7 @@ detailEls[4].innerHTML = "";
 song.credits.forEach(cred => {
     detailEls[4].innerHTML += "<a href="+cred[1]+">"+cred[0]+":</a> "+cred[2]+"<br>";
 });
+
+for(i=0; i < links.length; i++){
+    links[i].setAttribute("href", song.links[i]);
+}
