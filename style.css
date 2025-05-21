@@ -28,7 +28,7 @@ header{
 }
 
 p{
-    line-height: 20px;
+    line-height: 25px;
 }
 
 /*makes different text elements display on the same line (both top and bottom must be of class inline)*/

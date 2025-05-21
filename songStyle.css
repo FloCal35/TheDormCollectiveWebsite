@@ -1,6 +1,6 @@
 
 /* styling sheet for the song pages*/
-img.song{
+div.song img{
     border-radius: 15%;
     max-width: 400px;
     width:50%;
@@ -25,6 +25,10 @@ div.song h1{
     padding: 10px 20px;
     margin: 20px auto;
     width: fit-content;
+}
+
+p.song_info{
+    margin-top: 15px;
 }
 
 div.song_info a {
