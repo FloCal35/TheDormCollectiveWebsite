@@ -35,37 +35,9 @@ header{
     background-color: black;
 }
 
-img.song{
-    border-radius: 15%;
-    max-width: 400px;
-    width:50%;
-    display: block;
-    margin: auto;
-
+p{
+    line-height: 20px;
 }
-
-div.song{
-    background-color: gray;
-}
-
-/*big screen(default)*/
-div.song_info{
-    margin-left: 10%;
-    margin-right:10%;
-}
-
-h2.inline, p.inline{
-    display:inline;
-}
-
-/*big screen*/
-@media screen and (min-width:900px){
-    div.song_info{
-    margin-left: 25%;
-    margin-right: 25%;
-    }
-}
-
 
 img.song{
     border-radius: 15%;
@@ -248,4 +220,17 @@ div.song_info a:hover {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 20px;
     padding: 20px;
+}
+
+/*small screen*/
+div.song_info{
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+@media screen and (min-width:900px){
+    div.song_info{
+    margin-left: 25%;
+    margin-right: 25%;
+    }
 }
