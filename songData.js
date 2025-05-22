@@ -62,7 +62,6 @@ setting elements
 songDivEl.style.backgroundImage = `url('${song.blurryImg}')`;
 imgEl.src = song.image;
 titleEl.innerHTML = song.title;
-console.log(detailEls.entries);
 detailEls[0].innerHTML = song.releaseDate;
 detailEls[1].innerHTML = song.genre;
 detailEls[2].innerHTML = song.about;
