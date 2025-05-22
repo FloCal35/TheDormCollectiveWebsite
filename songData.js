@@ -33,7 +33,7 @@ const songs = {
         releaseDate: "February 14, 2025",
         genre: "techy instrumental",
         about:"Cooper likes music and space",
-        lyrics:"N/A",
+        lyrics:"",
         credits:[["Cooper", "Cooper's page","idk"]],
         links:["https://music.apple.com/us/song/man-in-space-close-to-you/1795380990","https://open.spotify.com/track/5soxVCjsuNG7t0iMxI0sXh?si=54bbe34fc54f4d56","https://music.youtube.com/watch?v=6si9U9UFmZc&si=8jE3HBwG4N7kRdQQ"]
     }
@@ -49,6 +49,7 @@ const imgEl = document.getElementById("songImg");
 const titleEl = document.getElementById("title");
 const detailEls = document.querySelectorAll("p.song_info");
 const links = document.querySelectorAll("div.social a");
+const lyricHeader = document.getElementById("lyric");
 
 
 /*
@@ -61,7 +62,12 @@ console.log(detailEls.entries);
 detailEls[0].innerHTML = song.releaseDate;
 detailEls[1].innerHTML = song.genre;
 detailEls[2].innerHTML = song.about;
+
+if(song.lyrics == ""){
+    lyricHeader.style.setProperty('display', 'none', 'important');
+}
 detailEls[3].innerHTML = song.lyrics;
+
 detailEls[4].innerHTML = "";
 song.credits.forEach(cred => {
     detailEls[4].innerHTML += "<a href="+cred[1]+">"+cred[0]+":</a> "+cred[2]+"<br>";

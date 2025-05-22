@@ -163,6 +163,36 @@ manages dropdowns
 }
 
 /*
+Vertical screen split
+*/
+.split{
+  height: calc(97% - 72px);
+  width: 48.5%;
+  margin-top: calc(1% + 72px);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  border-radius: 5%;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  margin-left: 1%;
+  background-color: #575757;
+}
+
+
+/* Control the right side */
+.right {
+  right: 0;
+  margin-right: 1%;
+  background-color: #575757;
+}
+
+
+/*
 home screen specific styling
 */
 .background-img1 {
@@ -188,4 +218,7 @@ home screen specific styling
     border-radius: 20px;
     padding: 20px;
 }
+
+
+
 

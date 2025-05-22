@@ -1,0 +1,16 @@
+
+div.right p,h3{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+img{
+    border-radius: 100%;
+    width:60%;
+    max-width:250px;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
