@@ -1,0 +1,24 @@
+General:
+    -Be mindful of mobile users
+    -Header and hamburger continuity across pages
+    -Rethink colors
+    -Add a simple footer (Copyright 2025... cuz i definetly filed that)
+    -Fix the weird jitter with hover in hamburger (not looking forward to this)
+
+Home:
+    -"Hello, we are the Dorm Collective"... barf
+    -Change pic? Some people said it's not "professional" enough (but the younger kids say it looks hip and cool?)
+
+About:
+    -Spice it up, ideas?
+
+Songs:
+    -Update info
+    -Correctly route links
+
+Profiles:
+    -Fix corner rounding (use 20px or smth close instead of %'s)
+    -Unbold the paragraph text
+    -Different page for mobile users, 2 columns is too squished
+    -emails are links (using mailto: link)
+    -finish song links

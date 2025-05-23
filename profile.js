@@ -4,7 +4,7 @@ const people={
         Name: "Caleb Flores",   
         Instrument: "Voice, Producer/DAW",
         Major: "Music Production",
-        About: "Caleb Flores is a music major at Belmont University. His musical journey began at the age of 4 where he began his 14 year violin journey. A few years later, he began his 10 year career in the Birmingham Boys Choir. In high school, he travelled the country (and globe) as a saxaphone section leader for the Homewood Patriot Marching Band and a dancer and historian for The Network show choir. Performance isn’t the only aspect of music he enjoys. He was trained by a previous Belmont graduate in Audio Engineering Technology and has been able to work for clients in multiple venues. The Dorm Collective is special to him because collaboration is what brings out his creative spark.",
+        About: "Caleb Flores is a music major at Belmont University. His musical journey began at the age of 4 where he began his 14 year violin journey. A few years later, he began his 10 year career in the Birmingham Boys Choir. In high school, he travelled the country (and globe) as a saxaphone section leader for the Homewood Patriot Marching Band and a singer/dancer and historian for The Network show choir. Performance isn’t the only aspect of music he enjoys. He was trained by a previous Belmont graduate in Audio Engineering Technology and has been able to work for clients in multiple venues. The Dorm Collective is special to him because collaboration is what brings out his creative spark.",
         Email: "flocal35@outlook.com"
     },
     "aidan":{
@@ -12,7 +12,7 @@ const people={
         Name: "Aidan McCarel",
         Instrument: "Guitar",
         Major: "Commercial Guitar",
-        About:"",
+        About:"Aidan McCarel, a guitarist at Belmont University, plays all different varieties of styles and genres but succeeds heavily in making music that makes people turn the radio off. Although he lives in Philedelphia, he is a native of Ohio and a die hard Cleveland Browns fan (He “Will absolutely tattoo his body once they win a championship”). Aidan has been writing music for the better part of 4 years and has always had a passion working with and being around people. He shares a bathroom with the members of the Dorm Collective during the Fall and Spring semester",
         Email:""
     },
     "cooper":{
