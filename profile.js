@@ -57,12 +57,14 @@ getting elements
 const imgEl = document.getElementById("profilePic");
 const nameEl = document.getElementById("name");
 const detailEls = document.querySelectorAll("div.left span");
+const title = document.getElementById("tabTitle")
 
 /*
 setting elements
  */
 imgEl.src= person.Img;
 nameEl.innerHTML = person.Name;
+title.innerHTML = person.Name;
 detailEls[0].innerHTML = person.Instrument;
 detailEls[1].innerHTML = person.Major;
 detailEls[2].innerHTML = person.About;

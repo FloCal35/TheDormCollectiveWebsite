@@ -54,6 +54,7 @@ const titleEl = document.getElementById("title");
 const detailEls = document.querySelectorAll("p.song_info");
 const links = document.querySelectorAll("div.social a");
 const lyricHeader = document.getElementById("lyric");
+const title = document.getElementById("tabTitle");
 
 
 /*
@@ -62,6 +63,7 @@ setting elements
 songDivEl.style.backgroundImage = `url('${song.blurryImg}')`;
 imgEl.src = song.image;
 titleEl.innerHTML = song.title;
+title.innerHTML = song.title;
 detailEls[0].innerHTML = song.releaseDate;
 detailEls[1].innerHTML = song.genre;
 detailEls[2].innerHTML = song.about;
