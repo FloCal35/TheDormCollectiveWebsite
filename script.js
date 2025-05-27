@@ -1,5 +1,12 @@
-const hamburger = document.querySelector('.hamburger');
+/*const hamburger = document.querySelector('.hamburger');
 const offscreen = document.querySelector('.offscreen');
+
+if(hamburger == null){
+  hamburger = document.getElementById('burger');
+  offscreen = document.getElementById('menu');
+}
+
+
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
     offscreen.classList.toggle('active');
@@ -19,4 +26,4 @@ for (i = 0; i < dropdown.length; i++) {
       dropdownContent.style.display = "block";
     }
   });
-}
+}*/
