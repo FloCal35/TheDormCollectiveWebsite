@@ -14,3 +14,8 @@ img{
     margin: auto;
     margin-top: 5%;
 }
+
+#navMenu {/*needed to put nav menu over split screen*/
+    position: relative;
+    z-index: 10;
+}
