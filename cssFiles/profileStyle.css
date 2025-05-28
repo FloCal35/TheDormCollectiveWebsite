@@ -1,4 +1,8 @@
 
+div{
+    box-sizing:border-box;
+}
+
 div.right p,h3{
     margin-left: 10%;
     margin-right: 10%;
@@ -6,7 +10,12 @@ div.right p,h3{
     margin-bottom:0;
 }
 
-img{
+div.right{
+    padding: 3%;
+    overflow: hidden;
+}
+
+.left img{
     border-radius: 100%;
     width:60%;
     max-width:250px;
@@ -15,7 +24,30 @@ img{
     margin-top: 5%;
 }
 
+img.song{
+    border-radius: 15%;
+    width:80%;
+    max-width:250px;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.social img{
+    width:45px;
+    height: 45px;
+}
+
+
 #navMenu {/*needed to put nav menu over split screen*/
     position: relative;
     z-index: 10;
+}
+
+div.songContainer{
+    background-color: lightgray;
+    width: 90%;
+    margin: 3%;
+    border-radius:5%;
+    padding:4%;
 }
