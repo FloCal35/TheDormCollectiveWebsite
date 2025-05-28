@@ -1,0 +1,1 @@
+//moved to navscript.js

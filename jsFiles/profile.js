@@ -1,6 +1,6 @@
 const people={
     "caleb":{
-        Img: "imgs/CalebProfile.png",
+        Img: "../imgs/CalebProfile.png",
         Name: "Caleb Flores",   
         Instrument: "Voice, Producer/DAW",
         Major: "Music Production",
@@ -8,7 +8,7 @@ const people={
         Email: "flocal35@outlook.com"
     },
     "aidan":{
-        Img: "imgs/AppleMusic.jpg",
+        Img: "../imgs/AppleMusic.jpg",
         Name: "Aidan McCarel",
         Instrument: "Guitar",
         Major: "Commercial Guitar",
@@ -16,7 +16,7 @@ const people={
         Email:""
     },
     "cooper":{
-        Img: "imgs/AppleMusic.jpg",
+        Img: "../imgs/AppleMusic.jpg",
         Name: "Cooper Chu",
         Instrument: "Producer/DAW",
         Major: "Audio Engineering Technology",
@@ -24,7 +24,7 @@ const people={
         Email:"dont contaxt me"
     },
     "austin":{
-        Img: "imgs/AustinProfile.png",
+        Img: "../imgs/AustinProfile.png",
         Name: "Austin Windau",
         Instrument: "Bass Guitar",
         Major: "Commercial Bass Guitar",
@@ -32,7 +32,7 @@ const people={
         Email:""
     },
     "dean":{
-        Img:"imgs/deanProfile.JPG",
+        Img:"../imgs/deanProfile.JPG",
         Name:"Dean Marino",
         Instrument: "Voice",
         Major: "Commercial Music",
@@ -40,7 +40,7 @@ const people={
         Email:""
     },
     "ari":{
-        Img:"imgs/AriProfile.png",
+        Img:"../imgs/AriProfile.png",
         Name: "Ari Lucas",
         Instrument:"Voice",
         Major: "Commercial Voice",
