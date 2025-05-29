@@ -11,7 +11,8 @@ div.right p,h3{
 }
 
 div.right{
-    padding: 3%;
+    padding-left: 3%;
+    padding-right:3%;
 
 }
 
