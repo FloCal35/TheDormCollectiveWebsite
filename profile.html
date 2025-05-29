@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="cssFiles/profileStyle.css">
         <script src="jsFiles/navscript.js" defer></script>
         <script src="jsFiles/profile.js" defer></script>
+        <script src="jsFiles/songData.js" defer></script>
+        <script src="jsFiles/songSlide.js" defer></script>
     </head>
     <body>
         <div id="navMenu"></div>
@@ -36,18 +38,7 @@
             <div style="height:25px"></div>
             <h1 class="center">Songs Contributed To</h1>
             <div style="height:25px"></div>
-            
-            <div class="songContainer">
-                <img class="song" src="imgs/DarlingGirl.jpeg">
-                <div style="height:25px"></div>
-                <h1 class="center">Song Title</h1>
-                <div style="height:15px"></div>
-                <div class="social">
-                    <a href="https://music.apple.com/us/album/imperfect-single/1792070967" target="_blank"><img src="imgs/AppleMusic.jpg" alt=""></a>
-                    <a href="https://open.spotify.com/track/3F99wb5iApVXJKCq2aX8SS?si=a47f49898fa34f64" target="_blank"><img src="imgs/Spotify.png" alt=""></a>
-                    <a href="https://music.youtube.com/watch?v=JncMazDeJXg&si=0eLubj_yjEFITEyO" target="_blank"><img src="imgs/YouTubeMusic.png" alt=""></a>
-                </div>
-            </div>
+            <div id="songSlideHolder"></div><!--where songs go! to do: put something there if there are none-->
         </div>  
     </body>
 </html>
