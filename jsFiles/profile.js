@@ -33,7 +33,7 @@ const people={
         Major: "Commercial Bass Guitar",
         About: "Austin Windau is a bassist at Belmont University. His musical path started in 6th grade in his hometown of Westlake, Ohio. He’s been into music since a young age and started out as a school of rock kid. Throughout high school, he spent most of his time practicing and teaching himself everything about music. In college, he’s a part of several groups: The Dorm Collective, Scuffed Animals, and The Lizzies.  He is currently in college figuring out where in the music world he fits best.",
         Email:"",
-        Songs: []
+        Songs: ["darlingGirl"]
     },
     "dean":{
         Img:"../imgs/deanProfile.JPG",
@@ -52,6 +52,15 @@ const people={
         About: "Ari Andelman is a songwriter at Belmont University from Washington, D.C. His notable accolades include placing 2nd in the Vocal Arts Society Competition, performing with the Temple Choir in Nashville, singing a solo in Sounds of Belmont at the Fisher Center, and performing as a lead role in the opera, The Gondoliers, at the Duke Ellington School of the Arts. So far, he has released his first single, “Step Out the Frame”, and is working at the Musicians Corner festival as an Audio Engineering intern for the summer. The Dorm Collective is something that he is proud to have collaborated with, and he hopes to work on more projects with these talented musicians in the upcoming years.",
         Email:"",
         Songs: []
+    },
+    "ella":{
+        Img:"../imgs/AriProfile.png",
+        Name: "Ella Markwald",
+        Instrument:"Voice",
+        Major: "...",
+        About: "Ella Markwald is a musician originally from Milwaukee, Wisconsin. She currently resides in Nashville, Tennessee, while studying Music Composition, Music Theory, and Music Business at Belmont University. She’s been singing and playing the violin since age 6, and has been writing songs since middle school. ",
+        Email:"",
+        Songs: ["imperfect","darlingGirl"]
     }
 }
 
