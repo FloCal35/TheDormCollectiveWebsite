@@ -28,14 +28,16 @@ for(let i=0; i<person.Songs.length; i++){
             for(let i=0; i<slides.length; i++){
                 var song = songs[person.Songs[i]];
                 var slide = slides[i];
-
+                
+                var aEl = slide.querySelector("a")
                 var coverEl = slide.querySelector("img");
                 var titEl = slide.querySelector('h1');
-                var linkEls = slide.querySelectorAll("a");
+                var linkEls = slide.querySelectorAll(".social a");
                 slide.style.backgroundImage = `url('${song.blurryImg}')`;
 
                 coverEl.src = song.image;
                 titEl.innerHTML = song.title;
+                aEl.href += person.Songs[i];
                 for(let i=0; i < linkEls.length; i++){
                     linkEls[i].setAttribute("href", song.links[i]);
                 }
