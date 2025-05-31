@@ -10,7 +10,7 @@ div.song img{
 }
 
 div.song{
-    background-image: url("../imgs/ImperfectBlur.png");
+    background-image: url("imgs/ImperfectBlur.png");
     background-size: cover;
     background-position: center;
     padding-bottom: 10px;

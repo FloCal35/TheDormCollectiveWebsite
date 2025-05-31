@@ -3,8 +3,8 @@ data about each song
 */
 const songs = {
     "imperfect":{
-        image: "../imgs/Imperfect Final.png",
-        blurryImg:"../imgs/ImperfectBlur.png",
+        image: "imgs/Imperfect Final.png",
+        blurryImg:"imgs/ImperfectBlur.png",
         title: "Imperfect",
         releaseDate: "January 24, 2025",
         genre: "Ballad",
@@ -18,8 +18,8 @@ const songs = {
     },
     "darlingGirl":{
         //calebbbbb please filll this in
-        image: "../imgs/DarlingGirl.jpeg",
-        blurryImg:"../imgs/DGBlur.png",
+        image: "imgs/DarlingGirl.jpeg",
+        blurryImg:"imgs/DGBlur.png",
         title: "Darling Girl",
         releaseDate: "March 28, 2025 (Under Ella Markwald)",
         genre: "Pop",
@@ -34,8 +34,8 @@ const songs = {
     },
     "manInSpace":{
         //calebbbbb please filll this in
-        image: "../imgs/ManInSpaceFinal.png",
-        blurryImg:"../imgs/MISBlur.png",
+        image: "imgs/ManInSpaceFinal.png",
+        blurryImg:"imgs/MISBlur.png",
         title: "Man In Space (Close To You)",
         releaseDate: "February 14, 2025",
         genre: "Jungle/Drum and Bass",

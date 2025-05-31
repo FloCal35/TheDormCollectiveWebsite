@@ -196,7 +196,7 @@ Vertical screen split
 home screen specific styling
 */
 .background-img1 {
-    background-image: url("../imgs/BandGlitch.png");
+    background-image: url("imgs/BandGlitch.png");
     background-size: cover;
     background-position: center;
     height: 550px; /* adjust as needed */

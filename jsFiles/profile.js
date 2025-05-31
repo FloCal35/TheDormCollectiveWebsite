@@ -1,6 +1,6 @@
 const people={
     "caleb":{
-        Img: "../imgs/CalebProfile.png",
+        Img: "imgs/CalebProfile.png",
         Name: "Caleb Flores",   
         Instrument: "Voice, Producer/DAW",
         Major: "Music Production",
@@ -9,7 +9,7 @@ const people={
         Songs: ["imperfect","darlingGirl","manInSpace"]
     },
     "aidan":{
-        Img: "../imgs/AppleMusic.jpg",
+        Img: "imgs/AppleMusic.jpg",
         Name: "Aidan McCarel",
         Instrument: "Guitar",
         Major: "Commercial Guitar",
@@ -18,7 +18,7 @@ const people={
         Songs: ["imperfect","darlingGirl"]
     },
     "cooper":{
-        Img: "../imgs/AppleMusic.jpg",
+        Img: "imgs/AppleMusic.jpg",
         Name: "Cooper Chu",
         Instrument: "Producer/DAW",
         Major: "Audio Engineering Technology",
@@ -27,7 +27,7 @@ const people={
         Songs: ["manInSpace"]
     },
     "austin":{
-        Img: "../imgs/AustinProfile.png",
+        Img: "imgs/AustinProfile.png",
         Name: "Austin Windau",
         Instrument: "Bass Guitar",
         Major: "Commercial Bass Guitar",
@@ -36,7 +36,7 @@ const people={
         Songs: ["darlingGirl"]
     },
     "dean":{
-        Img:"../imgs/deanProfile.JPG",
+        Img:"imgs/deanProfile.JPG",
         Name:"Dean Marino",
         Instrument: "Voice",
         Major: "Commercial Music",
@@ -45,7 +45,7 @@ const people={
         Songs: []
     },
     "ari":{
-        Img:"../imgs/AriProfile.png",
+        Img:"imgs/AriProfile.png",
         Name: "Ari Lucas",
         Instrument:"Voice",
         Major: "Commercial Voice",
@@ -54,7 +54,7 @@ const people={
         Songs: []
     },
     "ella":{
-        Img:"../imgs/AriProfile.png",
+        Img:"imgs/AriProfile.png",
         Name: "Ella Markwald",
         Instrument:"Voice",
         Major: "...",
