@@ -9,7 +9,7 @@ const people={
         Songs: ["imperfect","darlingGirl","manInSpace"]
     },
     "aidan":{
-        Img: "imgs/AppleMusic.jpg",
+        Img: "imgs/AidanProfile.png",
         Name: "Aidan McCarel",
         Instrument: "Guitar",
         Major: "Commercial Guitar",
@@ -18,7 +18,7 @@ const people={
         Songs: ["imperfect","darlingGirl"]
     },
     "cooper":{
-        Img: "imgs/AppleMusic.jpg",
+        Img: "imgs/CooperProfile.jpg",
         Name: "Cooper Chu",
         Instrument: "Producer/DAW",
         Major: "Audio Engineering Technology",
@@ -54,13 +54,22 @@ const people={
         Songs: []
     },
     "ella":{
-        Img:"imgs/AriProfile.png",
+        Img:"imgs/EllaProfile.png",
         Name: "Ella Markwald",
         Instrument:"Voice",
         Major: "...",
         About: "Ella Markwald is a musician originally from Milwaukee, Wisconsin. She currently resides in Nashville, Tennessee, while studying Music Composition, Music Theory, and Music Business at Belmont University. She’s been singing and playing the violin since age 6, and has been writing songs since middle school. ",
         Email:"",
         Songs: ["imperfect","darlingGirl"]
+    },
+    "carter":{
+        Img:"imgs/CarterProfile.png",
+        Name: "Carter Davidson",
+        Instrument:"Guitar",
+        Major: "Commercial Guitar",
+        About: "Carter’s music journey began at the age of 4, when he received his first guitar as a Christmas present. Living in Atlanta, Georgia, he began to study under award-winning artist Eliot Bronson who at the time was an up and coming songwriter. Carter’s mom began to take him to concerts of country stars which serve as inspiration for his musical identity. Through the years, Carter has stumbled upon numerous other sources of inspiration and his list of influences now grows larger by the day. While Carter’s sound currently reflects a pop singer-songwriter style, almost all of his influences find their way into his music in one way or another. Carter has performed at distinguished venues like Eddie's Attic and Cadence Bank Amphitheatre, shared the stage with acclaimed musicians including John Driscoll Hopkins (of the Zac Brown Band), and Brian Brasher (of Creed), and raised over $50,000 for Children's Healthcare of Atlanta Hospital through yearly solo concerts. Additionally, he has recently released his debut single recorded with two-time Grammy winning producer Don McCollister.",
+        Email:"",
+        Songs: [""]
     }
 }
 
