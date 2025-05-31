@@ -1,7 +1,7 @@
 /*
 imports the navigation menu
  */
-fetch('../navmenu.html')
+fetch('navmenu.html')
     .then(response => response.text())
     .then(html => {
       document.getElementById('navMenu').innerHTML = html;

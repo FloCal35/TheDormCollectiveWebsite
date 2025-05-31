@@ -10,13 +10,13 @@ loading in correct number of slides first, then after loading in last slide, fil
  */
 for(let i=0; i<person.Songs.length; i++){
     if(i < person.Songs.length -1){
-        fetch('../songSlide.html')
+        fetch('songSlide.html')
             .then(response => response.text())
             .then(html => {
             document.getElementById('songSlideHolder').innerHTML += html;});
     }
     else{
-        fetch('../songSlide.html')
+        fetch('songSlide.html')
             .then(response => response.text())
             .then(html => {
             document.getElementById('songSlideHolder').innerHTML += html;
