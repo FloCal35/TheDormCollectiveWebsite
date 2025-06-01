@@ -1,19 +1,24 @@
 General:
-    -Be mindful of mobile users
     -Rethink colors
+    -Rethink fonts
     -Add a simple footer (Copyright 2025... cuz i definetly filed that)
     -Fix the weird jitter with hover in hamburger (not looking forward to this)
+    -what if instead of a hamburger it was a navbar and the hover dropped down the profiles/songs
 
 Home:
     -"Hello, we are the Dorm Collective"... barf
     -Change pic? Some people said it's not "professional" enough (but the younger kids say it looks hip and cool?)
 
 Songs:
+    -Div for "listen on"
     -Update info
 
 Profiles:
-    -Different page for mobile users, 2 columns is too squished
-    -finish song links
+    -Background image and card opacity?
     -Update info
 
-Pictures:
+
+Going mobile:
+    -make menu bar bigger
+    -fix padding on songs
+    -Different page for mobile users, 2 columns is too squished

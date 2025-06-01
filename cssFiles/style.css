@@ -199,7 +199,7 @@ home screen specific styling
     background-image: url("../imgs/BandGlitch.png");
     background-size: cover;
     background-position: center;
-    height: 550px; /* adjust as needed */
+    height: /*550px*/ 67%; /* adjust as needed */
     display: flex;
     justify-content: center;
     align-items: flex-end;
