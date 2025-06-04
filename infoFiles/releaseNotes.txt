@@ -1,0 +1,12 @@
+Release 1.0
+    -Released the main website
+
+Release 1.1
+    -Made some css info %'s instead of px for better scaling
+    -Updated info
+
+Release 1.2
+    -Added manual 404 page
+    -Added 4 songs for EP
+    -Added Clark's bio
+    -Updated info

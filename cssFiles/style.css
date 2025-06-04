@@ -212,13 +212,29 @@ home screen specific styling
     overflow: hidden;
 }
 
-.background-img1 h1 {
+.background-img1 h1{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 20px;
     padding: 10px 20px;
 }
 
+.popup {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
-
+.popup.active {
+    opacity: 1;
+    z-index: 999;
+}
