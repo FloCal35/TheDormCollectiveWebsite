@@ -12,10 +12,17 @@ fetch('navmenu.html')
     const hamburger = document.querySelector('.hamburger');
     const offscreen= document.querySelector('.offscreen');
 
+    const myButton = document.getElementById('openPopup');
+
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('active');
         offscreen.classList.toggle('active');
-    })
+        if (offscreen.classList.contains('active')) {
+            myButton.style.display = 'none';
+        } else {
+            myButton.style.display = '';
+        }
+    });
 
 
     var dropdown = document.getElementsByClassName("dropdown-btn");

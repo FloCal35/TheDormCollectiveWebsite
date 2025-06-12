@@ -10,3 +10,9 @@ Release 1.2
     -Added 4 songs for EP
     -Added Clark's bio
     -Updated info
+
+Release 1.3
+    -Moved sections around
+    -News popup
+    -Fixed jitter in hamburger and other padding changes
+    -Sleak new header

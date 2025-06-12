@@ -1,4 +1,5 @@
 General:
+    -add google analytics
     -Rethink colors
     -Rethink fonts
     -Add a simple footer (Copyright 2025... cuz i definetly filed that)
