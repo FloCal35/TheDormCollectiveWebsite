@@ -8,7 +8,5 @@
 
 /* Mobile screens */
 @media (max-width: 480px) {
-  h1 {
-    font-size: 1.5rem;
-  }
+ 
 }

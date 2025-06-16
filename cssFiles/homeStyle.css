@@ -96,3 +96,26 @@ home screen specific styling
     right: 15px;
     margin-top: 0;
 }
+
+#openPopup{
+    position: fixed;
+    top:80px;
+    right:10px;
+    z-index:1000;
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+    #openPopup{
+        position: static;
+        margin-top: 20px;
+        width: 75%;
+    }
+    #popupBtnHolder{
+        display: flex;
+        justify-content: center;
+    }
+    button.active {
+       display:none;
+    }
+}
