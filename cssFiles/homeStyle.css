@@ -22,8 +22,13 @@ home screen specific styling
 }
 .background-img1 img {
     width: 100%;
-    max-height:600px;
+    max-height:720;
     object-fit: cover;
+    margin-bottom:-3%;
+}
+
+header{
+    background-color: rgba(0, 0, 0, .7);
 }
 
 /*ipad or smaller image styling*/
@@ -43,6 +48,9 @@ home screen specific styling
     }
     .background-img1 h1{
         font-size: 1.5rem;
+    }
+    #navMenu{
+        height:0px;
     }
 }
 

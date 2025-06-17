@@ -6,7 +6,7 @@ styling for the profile page
     div{
         box-sizing:border-box;
     }
-    p,h3{
+    .split p, .split h3{
         margin-left: 10%;
         margin-right: 10%;
         margin-top:0;
