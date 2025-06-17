@@ -1,6 +1,7 @@
 
 /*
-scripting for the song page
+scripting for the song pages
+(not to be confused with song info on profile page!)
 */
 
 const param = new URLSearchParams(window.location.search);

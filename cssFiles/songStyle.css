@@ -1,5 +1,8 @@
 
-/* styling sheet for the song pages*/
+/* 
+styling sheet for the song pages
+(not for songs on profile page!)
+*/
 div.song img{
     border-radius: 15%;
     max-width: 400px;

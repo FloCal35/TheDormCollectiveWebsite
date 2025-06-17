@@ -1,0 +1,14 @@
+/*
+styling for about page
+*/
+#mainImg{
+    width: 35%; 
+    min-width: 250px; 
+    height:auto; 
+    border-radius: 50%; 
+    object-fit: cover;
+}
+p{
+    text-align:left;
+    padding:0px 5%;
+}

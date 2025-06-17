@@ -1,8 +1,7 @@
-/*the main css file for the home page and general universal styling stuff*/
-
 /*
-general styles
+general styling for the whole website
 */
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
@@ -31,7 +30,6 @@ p{
     line-height: 25px;
 }
 
-/*makes different text elements display on the same line (both top and bottom must be of class inline)*/
 .inline{
     display:inline;
 }
@@ -39,262 +37,161 @@ p{
 /*
 social media links
 */
-.social{
-    display: flex;
-    justify-content: center;
-}
+    .social{
+        display: flex;
+        justify-content: center;
+    }
 
-.social img{
-    width: 60px;
-    height: 60px;
-    margin: 10px;
-    border-radius: 50%;
-    background-color: black;
-}
+    .social img{
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+        border-radius: 50%;
+        background-color: black;
+    }
+    /* Mobile screens */
+    @media (max-width: 480px) {
+    .social img{
+        width: 50px;
+        height: 50px;
+    }
+    }
 
 /*
 hamburger menu styling
 */
-.offscreen{
-    background-color: black;
-    opacity: 80%;
-    border-bottom-left-radius: 15px;
-    height: auto;
-    width: 100%;
-    max-width: 220px;
-    position: fixed;
-    top: 0;
-    right: -250px;
-    display: flex;
-    flex-direction: column;
-    transition: right 0.5s ease;
-    z-index: 1000;
-}
+    .offscreen{
+        background-color: black;
+        opacity: 80%;
+        border-bottom-left-radius: 15px;
+        height: auto;
+        width: 100%;
+        max-width: 220px;
+        position: fixed;
+        top: 0;
+        right: -250px;
+        display: flex;
+        flex-direction: column;
+        transition: right 0.5s ease;
+        z-index: 1000;
+    }
 
-.offscreen.active{
-    right: 0;
-}
+    .offscreen.active{
+        right: 0;
+    }
 
-.offscreen ul{
-    list-style: none;
-    padding-top: 50px;
-    padding-left: 15px;
-}
+    .offscreen ul{
+        list-style: none;
+        padding-top: 50px;
+        padding-left: 15px;
+    }
 
-.offscreen ul li{
-    padding: 5px;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 5px 0;
-}
+    .offscreen ul li{
+        padding: 5px;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 5px 0;
+    }
 
-.offscreen ul li:hover{
-    background-color: #575757;
-    border-radius: 10px;
-    display: inline-block;
-    padding: 10px 0;
-    /*
-    padding-left: 10px;
-    padding-right: 10px;*/
-    text-decoration: none;
-    transition: background-color 0.15s ease;
-}
-.offscreen br{
-    line-height: 10px;
-}
+    .offscreen ul li:hover{
+        background-color: #575757;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 10px 0;
+        /*
+        padding-left: 10px;
+        padding-right: 10px;*/
+        text-decoration: none;
+        transition: background-color 0.15s ease;
+    }
+    .offscreen br{
+        line-height: 10px;
+    }
 
-.hamburger{
-    height: 50px;
-    width: 50px;
-    margin-left: auto;
-    position: relative;
-}
+    .hamburger{
+        height: 50px;
+        width: 50px;
+        margin-left: auto;
+        position: relative;
+    }
 
-.hamburger span{
-    height: 5px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: 12px;
-    margin-left: -15px;
-    transform: translate(-50%, -50%);
-    transition: 0.5s ease;
-    z-index: 1001;
-}
+    .hamburger span{
+        height: 5px;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: 12px;
+        margin-left: -15px;
+        transform: translate(-50%, -50%);
+        transition: 0.5s ease;
+        z-index: 1001;
+    }
 
-.hamburger span:nth-child(1){
-    top: 25%;
-}
+    .hamburger span:nth-child(1){
+        top: 25%;
+    }
 
-.hamburger span:nth-child(3){
-    top: 75%;
-}
+    .hamburger span:nth-child(3){
+        top: 75%;
+    }
 
-.hamburger.active span:nth-child(1){
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
-}
-.hamburger.active span:nth-child(2){
-    opacity: 0;
-}
-.hamburger.active span:nth-child(3){
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
-}
+    .hamburger.active span:nth-child(1){
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    .hamburger.active span:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active span:nth-child(3){
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
 
 /*
 manages dropdowns
 */
-.dropdown-container {
-  display: none;
-  padding-left: 25px;
-}
+    .dropdown-container {
+    display: none;
+    padding-left: 25px;
+    }
 
-.dropdown-container a {
-  text-decoration: none;
-  font-size: 18px;
-  color: white;
-  display: block;
-  padding: 5px 0;
-}
-
-.dropdown-container a:hover {
-    background-color: #575757;
-    border-radius: 5px;
-    display: block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    .dropdown-container a {
     text-decoration: none;
     font-size: 18px;
     color: white;
-    transition: background-color 0.15s ease;
-}
+    display: block;
+    padding: 5px 0;
+    }
 
-/*
-Vertical screen split
-*/
-.split{
-  height: calc(97% - 72px);
-  width: 48.5%;
-  margin-top: calc(1% + 72px);
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  border-radius: 40px;
-}
-
-/* Control the left side */
-.left {
-  left: 0;
-  margin-left: 1%;
-  background-color: #575757;
-}
-
-
-/* Control the right side */
-.right {
-  right: 0;
-  margin-right: 1%;
-  background-color: #575757;
-}
-
-
-/*
-home screen specific styling
-*/
-.background-img1 {
-    background-image: url("../imgs/BandGlitch.png");
-    background-size: cover;
-    background-position: center;
-    height: /*550px*/ 67%; /* adjust as needed */
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 150px;
-    text-align: bottom;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 20px;
-    overflow: hidden;
-}
-
-.background-img1 h1{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 20px;
-    padding: 10px 20px;
-}
-
-/* Popup */
-.popup {
-    background-color: rgba(0, 0, 0, 0.8);
-    opacity: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    transition: all 0.3s ease-in-out;
-    z-index: -1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.popup.active {
-    opacity: 1;
-    z-index: 999;
-}
-.popup-content {
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    max-width: 500px;
-    width: 100%;
-    position: relative;
-}
-
-.popup-content h2 {
-    margin-top: 0;
-}
-.popup-content p {
-    margin: 10px 0;
-}
-
-.close {
-    background-color: #575757;
-    color: white;
-    border: none;
-    font-weight: bold;
-    padding: 10px 15px;
-    font-size: 15px;
-    cursor: pointer;
-    border-radius: 50px;
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    margin-top: 0;
-}
+    .dropdown-container a:hover {
+        background-color: #575757;
+        border-radius: 5px;
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        transition: background-color 0.15s ease;
+    }
 
 /* Buttons */
-button {
-    background-color: rgba(255, 255, 255, 0.35);
-    color: white;
-    border: none;
-    padding: 13px 25px;
-    font-size: 25px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 15px;
-}
+    button {
+        background-color: rgba(255, 255, 255, 0.35);
+        color: white;
+        border: none;
+        padding: 13px 25px;
+        font-size: 25px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 15px;
+    }
 
-button:hover {
-    background-color:rgba(0, 0, 0, 0.6);
-}
+    button:hover {
+        background-color:rgba(0, 0, 0, 0.6);
+    }
+
