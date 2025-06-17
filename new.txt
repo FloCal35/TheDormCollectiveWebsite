@@ -1,0 +1,78 @@
+In index: 
+17: <button id="openPopup" class="news">News!</button>
+
+In NavMenu:
+6-7: <li><a href="index.html" class="navLink">Home</a></li>
+     <li><a href="about.html" class="navLink">About</a></li>
+56-57: <a href="index.html"><img src="imgs/TDCTransB.png" alt="The Dorm Collective" class="headImg"></a>
+            <p class="headTxt">Menu</p>
+
+In Song:
+35: br
+44-45: <h2 class="dropdown-btn" id="lyric">Lyrics<span style="font-size:18px; text-decoration: none;">▼</span></h2>
+            <p class="dropdown-container song_info">hello world <br> we sing songs <br> songs are pretty</p><!--#3 lyrics go here-->
+
+In Song css: 
+at the bottom:
+
+div.songSpace{
+    height: 100px
+}
+
+div.song_info{
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+.dropdown-container.song_info {
+        font-size: 14px;
+    }
+
+
+In main CSS:
+
+a {
+    color: white;
+}
+
+
+.headImg{
+    padding-left: 3px; 
+    padding-top: 3px; 
+    width: auto; 
+    height: 70px;
+}
+
+.headTxt{
+    position: absolute;
+    top: -2px;
+    right: 80px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+}
+
+offscreen ul: padding-top: 60px;
+
+offscreen ul li: padding: 5px;
+
+offscreen ul li:hover: padding: 5px;
+
+.navLink{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+dropdown-container a:hover: padding: 5px;
+
+popip-content p: line-height: 1.5;
+
+
+button.news{
+    position: absolute;
+    top:80px;
+    right:10px;
+    z-index:1000;
+}
