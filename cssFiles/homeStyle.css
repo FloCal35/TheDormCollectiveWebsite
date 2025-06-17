@@ -81,6 +81,7 @@ home screen specific styling
 }
 .popup-content p {
     margin: 10px 0;
+    line-height: 1.5;
 }
 
 .close {
@@ -99,7 +100,7 @@ home screen specific styling
 }
 
 #openPopup{
-    position: fixed;
+    position: absolute;
     top:80px;
     right:10px;
     z-index:1000;

@@ -1,11 +1,4 @@
-In index: 
-17: <button id="openPopup" class="news">News!</button>
 
-In NavMenu:
-6-7: <li><a href="index.html" class="navLink">Home</a></li>
-     <li><a href="about.html" class="navLink">About</a></li>
-56-57: <a href="index.html"><img src="imgs/TDCTransB.png" alt="The Dorm Collective" class="headImg"></a>
-            <p class="headTxt">Menu</p>
 
 In Song:
 35: br
@@ -31,27 +24,6 @@ div.song_info{
 
 In main CSS:
 
-a {
-    color: white;
-}
-
-
-.headImg{
-    padding-left: 3px; 
-    padding-top: 3px; 
-    width: auto; 
-    height: 70px;
-}
-
-.headTxt{
-    position: absolute;
-    top: -2px;
-    right: 80px;
-    font-size: 1.7rem;
-    font-weight: bold;
-    color: white;
-}
-
 offscreen ul: padding-top: 60px;
 
 offscreen ul li: padding: 5px;
@@ -67,12 +39,3 @@ offscreen ul li:hover: padding: 5px;
 
 dropdown-container a:hover: padding: 5px;
 
-popip-content p: line-height: 1.5;
-
-
-button.news{
-    position: absolute;
-    top:80px;
-    right:10px;
-    z-index:1000;
-}
