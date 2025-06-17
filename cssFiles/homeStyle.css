@@ -27,10 +27,6 @@ home screen specific styling
     margin-bottom:-3%;
 }
 
-header{
-    background-color: rgba(0, 0, 0, .7);
-}
-
 /*ipad or smaller image styling*/
 @media (max-width: 768px) {
     .background-img1{
