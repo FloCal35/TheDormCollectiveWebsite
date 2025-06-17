@@ -22,8 +22,7 @@ header{
     display: flex;
     width: 100%;
     height: 72px;
-    /*background: black/*linear-gradient(to bottom, black, transparent)*/;
-    background-color: rgba(0, 0, 0, .7);
+    background: linear-gradient(to bottom, black, transparent);
     z-index: 1000;
 }
 
