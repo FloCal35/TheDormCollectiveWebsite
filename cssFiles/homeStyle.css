@@ -26,6 +26,7 @@ home screen specific styling
     object-fit: cover;
 }
 
+/*ipad or smaller image styling*/
 @media (max-width: 768px) {
     .background-img1{
         width: 100%;
@@ -104,7 +105,7 @@ home screen specific styling
     z-index:1000;
 }
 
-/* Mobile screens */
+/* Mobile screen popup */
 @media (max-width: 480px) {
     #openPopup{
         position: static;
