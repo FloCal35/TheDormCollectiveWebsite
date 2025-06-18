@@ -2,6 +2,10 @@
 general styling for the whole website
 */
 
+html{
+    background-color: black;
+}
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
