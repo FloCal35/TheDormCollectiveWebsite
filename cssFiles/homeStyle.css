@@ -115,7 +115,8 @@ home screen specific styling
     #openPopup{
         position: static;
         margin-top: 20px;
-        width: 75%;
+        width: 100%;
+        border-radius:0px;
     }
     #popupBtnHolder{
         display: flex;
