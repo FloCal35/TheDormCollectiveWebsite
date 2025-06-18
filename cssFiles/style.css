@@ -16,16 +16,6 @@ body{
     text-align: center;
 }
 
-header{
-    top: 0;
-    position: fixed;
-    display: flex;
-    width: 100%;
-    height: 72px;
-    background: linear-gradient(to bottom, black, transparent);
-    z-index: 1000;
-}
-
 a {
     color: white;
 }
@@ -153,6 +143,26 @@ hamburger menu styling
     }
 
 /*other header bar stuff*/
+
+    .bar{
+        width: 100%;
+        height: 30px;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+    }
+
+    header{
+        top: 0px;
+        position: fixed;
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background: linear-gradient(to bottom, black, transparent);
+        z-index: 1000;
+    }
+
     .navLink{
         text-decoration: none;
         color: white;
@@ -165,13 +175,14 @@ hamburger menu styling
         padding-top: 3px; 
         width: auto; 
         height: 70px;
+        z-index: 1000;
     }
 
     .headTxt{
         position: absolute;
-        top: -2px;
-        right: 80px;
-        font-size: 1.7rem;
+        top: 1px;
+        right: 75px;
+        font-size: 1.4rem;
         font-weight: bold;
         color: white;
     }
