@@ -44,6 +44,8 @@ home screen specific styling
     }
     .background-img1 h1{
         font-size: 1.5rem;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     #navMenu{
         height:0px;
@@ -115,6 +117,9 @@ home screen specific styling
     #openPopup{
         position: fixed;
         bottom: 0;
+        top: auto;
+        right: 0;
+        height: 70px;
         width: 100%;
         border-radius: 0;
     }
@@ -122,7 +127,7 @@ home screen specific styling
         display: flex;
         justify-content: center;
     }
-    button.active {
+    #openPopup.active {
        display:none;
     }
 }
