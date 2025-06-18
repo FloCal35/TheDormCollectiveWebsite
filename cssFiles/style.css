@@ -85,7 +85,6 @@ hamburger menu styling
         color: white;
         font-size: 25px;
         font-weight: bold;
-        padding: 5px;
     }
 
     .offscreen ul li:hover{
@@ -96,6 +95,17 @@ hamburger menu styling
         text-decoration: none;
         transition: background-color 0.15s ease;
     }
+
+    @media (max-width: 480px){
+        .offscreen ul li{
+            padding: 3px;
+        }
+
+        .offscreen ul li:hover{
+            padding: 3px;
+        }
+    }
+
     .offscreen br{
         line-height: 10px;
     }
@@ -213,6 +223,16 @@ manages dropdowns
         font-size: 18px;
         color: white;
         transition: background-color 0.15s ease;
+    }
+
+    @media (max-width: 480px){
+        .dropdown-container a{
+            padding: 2px 0px;
+        }
+
+        .dropdown-container a:hover {
+            padding: 2px;
+        }
     }
 
 /* Buttons */
