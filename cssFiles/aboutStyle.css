@@ -33,5 +33,5 @@ body {
     background-attachment: fixed;
     background-position: center;
     backdrop-filter: blur(20px);
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .55);
 }
