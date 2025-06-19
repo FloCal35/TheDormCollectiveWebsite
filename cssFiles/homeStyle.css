@@ -115,9 +115,11 @@ home screen specific styling
 /* Mobile screen popup */
 @media (max-width: 480px) {
     #openPopup{
-        position: static;
-        margin-top: 20px;
+        top: auto;
+        right: 0;
+        bottom: 0px;
         width: 100%;
+        height: 60px;
         border-radius:0px;
     }
     #popupBtnHolder{
