@@ -10,8 +10,28 @@ styling for about page
 }
 .about p{
     text-align:left;
-    padding:0px 5%;
 }
 #navMenu{
     height:70px;
+}
+
+.about{
+    color: white;
+    margin: 0 auto;
+    padding: 0px 20px;
+    width: 90%;
+    border-radius: 50px;
+    background-color: rgb(60, 60, 60);
+    display: block;
+}
+
+body {
+    background-image: url("../imgs/BandGlitchTall.png");
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, .7);
 }
