@@ -36,7 +36,7 @@ const people={
         Songs: ["darlingGirl","movement"]
     },
     "dean":{
-        Img:"imgs/deanProfile.JPG",
+        Img:"imgs/DeanProfile.JPG",
         Name:"Dean Marino",
         Instrument: "Voice",
         Major: "Commercial Music",
@@ -72,7 +72,7 @@ const people={
         Songs: ["whenShesThere"]
     },
     "clark":{
-        Img:"imgs/ClarkProfile.png",
+        Img:"imgs/HighQuality.png",
         Name: "Clark Nelson (MythSix)",
         Instrument:"Piano, Producer/DAW",
         Major: "Commercial Piano",

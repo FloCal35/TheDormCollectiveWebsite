@@ -2,10 +2,6 @@
 general styling for the whole website
 */
 
-html{
-    background-color: black;
-}
-
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
@@ -89,6 +85,7 @@ hamburger menu styling
         color: white;
         font-size: 25px;
         font-weight: bold;
+        display: block;
     }
 
     .offscreen ul li:hover{
@@ -214,16 +211,15 @@ manages dropdowns
         text-decoration: none;
         font-size: 18px;
         color: white;
-        display: block;
-        padding: 1px 0;
+        display: inline-block;
+        padding: 7px 0;
     }
 
     .dropdown-container a:hover {
         background-color: #575757;
         border-radius: 5px;
-        display: block;
-        padding-top: 1px;
-        padding-bottom: 1px;
+        display: inline-block;
+        padding: 7px 0;
         text-decoration: none;
         font-size: 18px;
         color: white;
@@ -232,11 +228,11 @@ manages dropdowns
 
     @media (max-width: 480px){
         .dropdown-container a{
-            padding: 2px 0px;
+            padding: 4px 0px;
         }
 
         .dropdown-container a:hover {
-            padding: 2px;
+            padding: 4px;
         }
     }
 

@@ -93,9 +93,27 @@ const songs = {
         lyrics:"Why is it so hard<br>To write a simple line<br>It doesn't have to be mature,<br>It doesn't have to rhyme<br>Feelings, are temporary,<br>Nothing more permanent than that<br>Which I wrote this song,<br>Why I sing it for you<br><br>As the moon shines down and lights the nights scowl<br>You can lift me up with a simple smile<br>When your around<br>The bleeding goes away<br>Red turns to blue,<br>And the waters drift out way<br><br>As a space man flys for something new,<br>I'll travel through this life<br>With you, with you, only you",
         credits:[["Aidan McCarel", "profile.html?name=aidan","Music, Lyrics, Guitar, Vocals"],
             ["Ella Markwald", "profile.html?name=ella","Vocals"],
-            ["Austin", "profile.html?name=austin","Bass Guitar"],
+            ["Austin Windau", "profile.html?name=austin","Bass Guitar"],
             ["Caleb Flores", "profile.html?name=caleb","Production"],
             ["Clark Nelson", "profile.html?name=clark","Assist in music and production"]],
         links:["https://music.apple.com/us/album/movement-feat-ella-markwald-demo/1814330186?i=1814330190","https://open.spotify.com/track/2UcpSu1DLALRirSzrCeyTK?si=8463b0e1df3b443f","404.html"]
+    },
+    "endOfTheRoad":{
+        image: "imgs/HighQuality.png",
+        blurryImg:"imgs/HighQuality.png",
+        title: "End of the Road",
+        releaseDate: "July 25, 2025",
+        genre: "Pop-Rock/Alternative",
+        about:"“End of The Road” is a pop-rock anthem that explores the tension between fear and hope in a relationship. Written from the perspective of someone fighting to hold on, the song blends emotional vulnerability with defiant optimism. The lyric “This is not the end of the road” first came to Caleb during a quiet moment in class. It quickly became the foundation for the entire track. The song begins with a quiet sense of lament and uncertainty, but gradually shifts into a passionate plea. The bridge serves as a heartfelt turning point, a final cry not to let the story die. It ends with a reaffirmation that love can rise above fear. As repeated in the chorus, “End of The Road” is a reminder that relationships, even in their hardest moments, are worth fighting for.",
+        lyrics:"",
+        credits:[["Caleb Flores", "profile.html?name=caleb","Music, Lyrics, Vocals, Production"],
+            ["Dean Marino", "profile.html?name=dean","Music, Lyrics, Vocals, Drums, Piano"],
+            ["Carter Davidson", "profile.html?name=carter","Music"],
+            ["Aidan McCarel", "profile.html?name=aidan","Electric Guitar"],
+            ["Austin Windau", "profile.html?name=austin","Bass Guitar"],
+            ["Cooper Chu", "profile.html?name=cooper","Assist in production"],
+            ["Clark Nelson", "profile.html?name=clark","Assist in production"],
+            ["Tyler Cuidon", "404.html","Assist in production"]],
+        links:["404.html","404.html","404.html"]
     }
 }
