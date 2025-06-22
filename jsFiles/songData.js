@@ -42,6 +42,22 @@ const songs = {
         credits:[["Cooper Chu", "profile.html?name=cooper","Music, Production"]],
         links:["https://music.apple.com/us/song/man-in-space-close-to-you/1795380990","https://open.spotify.com/track/5soxVCjsuNG7t0iMxI0sXh?si=54bbe34fc54f4d56","https://music.youtube.com/watch?v=6si9U9UFmZc&si=8jE3HBwG4N7kRdQQ"]
     },
+    "tillNightShowsMoon":{
+        image: "imgs/TillNightFinal.png",
+        blurryImg:"imgs/TillNightBlur.png",
+        title: "Till Night Shows Moon (Aidan's EP)",
+        releaseDate: "May 30, 2025",
+        genre: "Ambient/Acoustic",
+        about:"...",
+        lyrics:"",
+        credits:[["Aidan McCarel", "profile.html?name=aidan","Music, Lyrics, Guitar"],
+            ["Caleb Flores", "profile.html?name=caleb","Production"],
+            ["Cooper Chu", "profile.html?name=cooper","Production"],
+            ["Ari Andelman", "profile.html?name=ari","Vocals"],
+            ["Carter Davidson", "profile.html?name=carter","Guitar"],
+            ["Ella Markwald", "profile.html?name=ella","Vocals"]],
+        links:["https://music.apple.com/us/album/an-ode-to-life-pt-1-feat-ari-lucas/1814330186?i=1814330187","https://open.spotify.com/track/0CgcQtzoxARtL3FAFIpRhU?si=00e8121e57c8406a","404.html"]
+    },
     "odeToLife":{
         image: "imgs/TillNightFinal.png",
         blurryImg:"imgs/TillNightBlur.png",
