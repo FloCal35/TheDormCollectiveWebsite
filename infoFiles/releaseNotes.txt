@@ -22,3 +22,7 @@ Release 1.4
     -Revert to old header
     -Home tab
     -Organization
+
+Release 1.5
+    -Updated homescreen with recent and future sections
+    -Added backgrounds to about and profiles
