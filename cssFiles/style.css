@@ -43,6 +43,7 @@ social media links
         margin: 10px;
         border-radius: 50%;
         background-color: black;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     }
     /* Mobile screens */
     @media (max-width: 480px) {
@@ -56,8 +57,7 @@ social media links
 hamburger menu styling
 */
     .offscreen{
-        background-color: black;
-        opacity: 70%;
+        background-color: rgba(0, 0, 0, 0.7);
         border-bottom-left-radius: 15px;
         height: auto;
         width: 100%;
