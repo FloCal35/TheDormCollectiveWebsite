@@ -265,6 +265,11 @@ button:hover {
   margin: auto;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.song-card:hover {
+  transform: scale(1.05);
 }
 
 .cover {
@@ -364,3 +369,11 @@ button:hover {
     max-width: 180px;
   }
 }
+
+.zoom-on-hover {
+    transition: transform 0.3s;
+    }
+
+.zoom-on-hover:hover {
+    transform: scale(1.2);
+    }
