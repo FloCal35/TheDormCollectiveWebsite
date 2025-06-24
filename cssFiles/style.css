@@ -188,6 +188,11 @@ hamburger menu styling
         width: auto; 
         height: 70px;
         z-index: 1000;
+        transition: transform 0.3s ease;
+    }
+
+    .headImg:hover{
+        transform: scale(1.1);
     }
 
     .headTxt{
@@ -238,7 +243,7 @@ manages dropdowns
 
 /* Buttons */
 button {
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(208, 208, 208, 0.35);
     color: white;
     border: none;
     padding: 13px 25px;
@@ -246,10 +251,12 @@ button {
     font-weight: bold;
     cursor: pointer;
     border-radius: 15px;
+    transition: transform 0.3s ease;
 }
 
 button:hover {
-    background-color:rgba(0, 0, 0, 0.6);
+    background-color:rgba(255, 255, 255, 0.6);
+    transform: scale(1.03);
 }
 
 .song-card {

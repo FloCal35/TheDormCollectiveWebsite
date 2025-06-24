@@ -3,7 +3,7 @@ data about each song
 */
 
 //album/ep song lists:
-const tnsmSongs = [["odeToLife","Ode to Life"],["muddyWaters", "Muddy Waters"],["whenShesThere","When She's There"],["movement","Movement"]];
+const tnsmSongs = [["odeToLife","An Ode to Life"],["muddyWaters", "Muddy Waters"],["whenShesThere","When She's There"],["movement","Movement"]];
 
 //master list of songs, eps, and albums
 const songs = {
@@ -27,13 +27,13 @@ const songs = {
         title: "Darling Girl",
         releaseDate: "March 28, 2025 (Under Ella Markwald's artist name)",
         genre: "Pop",
-        about:"Darling Girl was written to my younger self, a girl who continuously tried to be someone she wasn’t. It’s an uplifting song that encourages listeners to be their authentic selves.",
+        about:"Darling Girl is a song written by Ella Markwald featuring members of The Dorm Collective. 'Darling Girl was written to my younger self, a girl who continuously tried to be someone she wasn’t. It’s an uplifting song that encourages listeners to be their authentic selves.' -Ella",
         lyrics:"V1<br>She’s got a dark cherry red wine vintage aesthetic <br>And a monarch butterfly tattoo on her neck <br>Her long painted black nails that match her corset<br>She runs them through her short hair that’s secretly synthetic<br>I’ve dug through many layers <br>To try and get to know her <br>But I still feel like a stranger <br>I guess I must look harder<br>To break through that demeanor<br>Cuz I ain’t saving her for later<br><br>V2<br>And every weekday morning she’ll go to the gym<br>So deep down she can convince herself that she’s good-looking<br>And on all her dating apps she hides behind a pseudonym<br>Cuz she’s scared to be vulnerable and face rejection<br>I wish one day she’d see<br>The nature of her beauty<br>But right now she can't believe<br>That her life could have a meaning<br>I know she could achieve<br>The dreams she’s always dreaming<br><br>Chorus<br>Oh darling girl <br>You’ve got so much love<br>That follows you everywhere<br>You’re not alone<br>Don’t focus on your flaws<br>Your friends are going nowhere<br>And darling girl<br>It will take some time<br>To find who you want to be<br>But trust yourself<br>An inimitable design<br>You’re meant to be unique<br><br>V3<br>Her favorite season’s spring she’s got mixed feelings on fall<br>That’s when her depression hits and clouds all her thoughts<br>And winter isn't better so it's a downward spiral<br>Until March arrives and her mind can be gentle<br>So I’ll hold her close<br>Through the bitter cold<br>And promise not to let go<br>Cuz she only knows<br>How to be alone<br>But with each other, we can grow<br><br>[Chorus]<br><br>Bridge<br>And like a reborn phoenix <br>You were set ablaze <br>From the ashes you rose up <br>Beneath the sunlight rays<br>And maybe you can't see it<br>But these are better days<br>Emerging from the shadows<br>Your heart and soul have changed<br>And I know I know it’s been hard<br>But you’ve grown in so many ways<br>I can't wait to see what you become<br>As you never cease to amaze<br><br> [Chorus]<br><br>",
         credits:[["Ella Markwald", "Ella's page link", "Music, Lyrics, Vocals"],
             ["Aidan McCarel", "profile.html?name=aidan","Guitar"],
             ["Austin Windau", "profile.html?name=austin","Bass Guitar"],
-            ["Caleb Flores", "profile.html?name=caleb","Production"],
-            ["Clark Nelson", "profile.html?name=clark","Piano, Assist in production"],],
+            ["Clark Nelson", "profile.html?name=clark","Piano, Assist in production"],
+            ["Caleb Flores", "profile.html?name=caleb","Production"]],
         links:["https://music.apple.com/us/song/darling-girl/1802281141","https://open.spotify.com/track/2mqf0xVx8FMzzSKG6wgofP?si=204f4e87941a4a84","https://music.youtube.com/watch?v=8CxzF_N55uY&si=hQbT_YKq-siDjpto"]
     },
     "manInSpace":{
@@ -42,7 +42,7 @@ const songs = {
         title: "Man In Space (Close To You)",
         releaseDate: "February 14, 2025",
         genre: "Jungle/Drum and Bass",
-        about:"",
+        about:"Man In Space is an experimental song by Cooper Chu. Incorperating samples from rocket launches and the familier drum and bass beats, this song is meant to have a vibey feel.",
         lyrics:"",
         credits:[["Cooper Chu", "profile.html?name=cooper","Music, Production"]],
         links:["https://music.apple.com/us/song/man-in-space-close-to-you/1795380990","https://open.spotify.com/track/5soxVCjsuNG7t0iMxI0sXh?si=54bbe34fc54f4d56","https://music.youtube.com/watch?v=6si9U9UFmZc&si=8jE3HBwG4N7kRdQQ"]
@@ -51,10 +51,10 @@ const songs = {
     "tillNightShowsMoon":{
         image: "imgs/TillNightFinal.png",
         blurryImg:"imgs/TillNightBlur.png",
-        title: "Till Night Shows Moon",
+        title: "Till Night Shows Moon (Aidan's EP)",
         releaseDate: "May 30, 2025",
         genre: "Ambient/Acoustic",
-        about:"...",
+        about:"'As musicians we are constantly told to find and work on our sound. Though I believe this is true, we should also celebrate the sound that we have found. Till Night Shows Moon is a celebration of dorm room music, young aspiring artists and a sound that has taken me, well, to this point in my life. What it is in nature is what it sounds like, the celebration of creating and the attempt to match feeling with music' -Aidan",
         lyrics: tnsmSongs,
         credits:[["Aidan McCarel", "profile.html?name=aidan","Music, Lyrics, Guitar"],
             ["Caleb Flores", "profile.html?name=caleb","Production"],

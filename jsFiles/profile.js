@@ -22,7 +22,7 @@ const people={
         Name: "Cooper Chu",
         Instrument: "Producer/DAW",
         Major: "Audio Engineering Technology",
-        About:"",
+        About:"Cooper is a producer and audio engineer at Belmont University. A native of Chicago, he is a fan of electonic music, specifically dubstep and drum and bass. He is still trying to figure out which genre he produces best but is also helping produce for The Dorm Collective.",
         Email:"",
         Songs: ["manInSpace","muddyWaters"]
     },
@@ -72,11 +72,11 @@ const people={
         Songs: ["whenShesThere"]
     },
     "clark":{
-        Img:"imgs/HighQuality.png",
+        Img:"imgs/Clark.png",
         Name: "Clark Nelson (MythSix)",
         Instrument:"Piano, Producer/DAW",
         Major: "Commercial Piano",
-        About: "",
+        About: "Clark (Myth Six) is an artist/producer who creates imaginative and sonically rich electronic music. He began his music production journey by uploading beats to SoundCloud, and quickly built notoriety as a composer within an online game development community. He has worked with The Dorm Collective as a pianist and an assistant producer.",
         Email:"",
         Songs: ["imperfect","darlingGirl","odeToLife","whenShesThere","movement"]
     }
