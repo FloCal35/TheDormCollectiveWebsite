@@ -36,7 +36,8 @@ body::before {
         margin-bottom:0;
     }
     .split{
-        background-color: #575757;
+        background-color: rgb(87, 87, 87, .92);
+    
     }
     #navMenu {/*needed to put nav menu over split screen*/
         position: relative;
@@ -45,8 +46,8 @@ body::before {
 
 /* left side */
     .left {
-    left: 0;
-    margin-left: 1%;
+        left: 0;
+        margin-left: 1%;
     }
     .left img{
         border-radius: 100%;
