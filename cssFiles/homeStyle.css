@@ -26,6 +26,9 @@ home screen specific styling
     object-fit: cover;
     margin-bottom:-3%;
 }
+a{
+    text-decoration: none;
+}
 
 /*ipad or smaller image styling*/
 @media (max-width: 768px) {

@@ -33,7 +33,17 @@ detailEls[2].innerHTML = song.about;
 if(song.lyrics == ""){
     lyricHeader.style.setProperty('display', 'none', 'important');
 }
-detailEls[3].innerHTML = song.lyrics;
+else if(typeof song.lyrics == 'object'){
+    lyricHeader.innerHTML = "Songs▼";
+    detailEls[3].innerHTML = "";
+    song.lyrics.forEach(innerSong => {
+        detailEls[3].innerHTML += "<a href=song.html?id="+innerSong[0]+">"+innerSong[1]+"</a><br>";
+    });
+
+}
+else{
+    detailEls[3].innerHTML = song.lyrics;
+}
 
 detailEls[4].innerHTML = "";
 song.credits.forEach(cred => {

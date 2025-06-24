@@ -1,6 +1,11 @@
 /*
 data about each song
 */
+
+//album/ep song lists:
+const tnsmSongs = [["odeToLife","Ode to Life"],["muddyWaters", "Muddy Waters"],["whenShesThere","When She's There"],["movement","Movement"]];
+
+//master list of songs, eps, and albums
 const songs = {
     "imperfect":{
         image: "imgs/Imperfect Final.png",
@@ -42,14 +47,15 @@ const songs = {
         credits:[["Cooper Chu", "profile.html?name=cooper","Music, Production"]],
         links:["https://music.apple.com/us/song/man-in-space-close-to-you/1795380990","https://open.spotify.com/track/5soxVCjsuNG7t0iMxI0sXh?si=54bbe34fc54f4d56","https://music.youtube.com/watch?v=6si9U9UFmZc&si=8jE3HBwG4N7kRdQQ"]
     },
+    /*aidan's ep*/
     "tillNightShowsMoon":{
         image: "imgs/TillNightFinal.png",
         blurryImg:"imgs/TillNightBlur.png",
-        title: "Till Night Shows Moon (Aidan's EP)",
+        title: "Till Night Shows Moon",
         releaseDate: "May 30, 2025",
         genre: "Ambient/Acoustic",
         about:"...",
-        lyrics:"",
+        lyrics: tnsmSongs,
         credits:[["Aidan McCarel", "profile.html?name=aidan","Music, Lyrics, Guitar"],
             ["Caleb Flores", "profile.html?name=caleb","Production"],
             ["Cooper Chu", "profile.html?name=cooper","Production"],
@@ -114,6 +120,7 @@ const songs = {
             ["Clark Nelson", "profile.html?name=clark","Assist in music and production"]],
         links:["https://music.apple.com/us/album/movement-feat-ella-markwald-demo/1814330186?i=1814330190","https://open.spotify.com/track/2UcpSu1DLALRirSzrCeyTK?si=8463b0e1df3b443f","404.html"]
     },
+    /*end of aidan's ep*/
     "endOfTheRoad":{
         image: "imgs/HighQuality.png",
         blurryImg:"imgs/HighQuality.png",
