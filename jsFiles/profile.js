@@ -40,7 +40,7 @@ const people={
         Name:"Dean Marino",
         Instrument: "Voice",
         Major: "Commercial Music",
-        About: "Dean Marino is one of the most exciting upcoming acts from Belmont University. His catalog consists of 7 albums and hundreds of songs, all of which have been released to much acclaim from audiences of all varieties. A native of Sugar Land, Texas, Dean would describe his music as somewhere between Billy Joel and Carly Rae Jepsen, though he collects new influences often. Dean is thrilled to be working so closely with The Dorm Collective on various projects and thinks that collaboration is what makes music incredible.",
+        About: "Dean Marino is an exciting upcoming act from Belmont University. His catalog consists of 7 albums and hundreds of songs. A native of Sugar Land, Texas, Dean would describe his music as somewhere between Billy Joel and Carly Rae Jepsen, though he collects new influences often. Dean is thrilled to be working so closely with The Dorm Collective on various projects and thinks that collaboration is what makes music incredible.",
         Email:"",
         Songs: []
     },
@@ -49,7 +49,7 @@ const people={
         Name: "Ari Lucas",
         Instrument:"Voice",
         Major: "Commercial Voice",
-        About: "Ari Andelman is a songwriter at Belmont University from Washington, D.C. His notable accolades include placing 2nd in the Vocal Arts Society Competition, performing with the Temple Choir in Nashville, singing a solo in Sounds of Belmont at the Fisher Center, and performing as a lead role in the opera, The Gondoliers, at the Duke Ellington School of the Arts. So far, he has released his first single, “Step Out the Frame”, and is working at the Musicians Corner festival as an Audio Engineering intern for the summer. The Dorm Collective is something that he is proud to have collaborated with, and he hopes to work on more projects with these talented musicians in the upcoming years.",
+        About: "Ari Andelman is a songwriter at Belmont University from Washington, D.C. So far, he has released his first single, “Step Out the Frame”, and is working at the Musicians Corner festival as an Audio Engineering intern for the summer. The Dorm Collective is something that he is proud to have collaborated with, and he hopes to work on more projects with these talented musicians in the upcoming years.",
         Email:"",
         Songs: ["odeToLife"]
     },
