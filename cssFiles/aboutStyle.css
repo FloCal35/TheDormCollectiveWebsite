@@ -23,6 +23,7 @@ styling for about page
     border-radius: 50px;
     background-color: rgb(60, 60, 60,.92);
     display: block;
+    overflow-x: hidden;
 }
 
 body {
@@ -35,4 +36,11 @@ body {
     backdrop-filter: blur(5px);
     overflow-x: hidden;
     background-color: rgba(0, 0, 0, .55);
+}
+
+@media(max-width:480px){
+    .about{
+        width: 92%;
+        padding: 10px;
+    }
 }
