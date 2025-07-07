@@ -24,6 +24,12 @@ fetch('navmenu.html')
         }
     });
 
+    const letsBeginButton = document.querySelector('button.begin');
+
+letsBeginButton.addEventListener('click', () => {
+    hamburger.click();
+});
+
 
     var dropdown = document.getElementsByClassName("dropdown-btn");
     var i;

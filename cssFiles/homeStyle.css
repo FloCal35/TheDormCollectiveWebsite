@@ -108,7 +108,7 @@ a{
     margin-top: 0;
 }
 
-#openPopup{
+#openPopup.news{
     position: fixed;
     top:70px;
     right:10px;
@@ -118,7 +118,7 @@ a{
 
 /* Mobile screen popup */
 @media (max-width: 480px) {
-    #openPopup{
+    #openPopup.news{
         top: auto;
         background-color: rgb(143, 143, 143);
         right: 0;
