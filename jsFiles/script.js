@@ -1,3 +1,7 @@
+/*
+homescreen js file
+*/
+
 //manages news popup on homescreen
 const openBtn = document.getElementById("openPopup");
 const closeBtn = document.getElementById("closePopup");
@@ -14,7 +18,7 @@ closeBtn.addEventListener("click", () => {
 });
 
 
-  // Set your release date here (YYYY-MM-DD HH:MM:SS)
+// Set your release date here (YYYY-MM-DD HH:MM:SS)
 const releaseDate = new Date("2025-07-25T23:00:00").getTime();
 
 const countdown = setInterval(() => {
