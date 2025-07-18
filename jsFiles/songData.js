@@ -122,20 +122,18 @@ const songs = {
     },
     /*end of aidan's ep*/
     "endOfTheRoad":{
-        image: "imgs/HighQuality.png",
-        blurryImg:"imgs/HighQuality.png",
+        image: "imgs/EndOfTheRoad.png",
+        blurryImg:"imgs/EOTRBlur.png",
         title: "End of the Road",
         releaseDate: "July 25, 2025",
         genre: "Pop-Rock/Alternative",
         about:"“End of The Road” is a pop-rock anthem that explores the tension between fear and hope in a relationship. Written from the perspective of someone fighting to hold on, the song blends emotional vulnerability with defiant optimism. The lyric “This is not the end of the road” first came to Caleb during a quiet moment in class. It quickly became the foundation for the entire track. The song begins with a quiet sense of lament and uncertainty, but gradually shifts into a passionate plea. The bridge serves as a heartfelt turning point, a final cry not to let the story die. It ends with a reaffirmation that love can rise above fear. As repeated in the chorus, “End of The Road” is a reminder that relationships, even in their hardest moments, are worth fighting for.",
-        lyrics:"",
+        lyrics:"Verse 1:<br>You’ve been tellin’ me from the start<br>That you’re afraid of a broken heart<br>Has the day finally arrived<br>I remember when you used to be nearer<br>Now I’m tryin’ to see our love a bit clearer<br>I just wanted us to survive<br><br>Chorus:<br>Woah (oh oh oh)<br>This is not the end of the road<br>Don’t let go<br>Even though your mind is telling you so<br>Don’t leave, me here<br>Don’t shed a single tear<br>Woah (oh oh oh)<br>This is not the end of the road<br><br>Verse 2:<br>I’ve been sayin’ since the day we met<br>I’m not the type of guy to feel regret<br>And you’re not gonna start it with me now<br>Don’t you remember when we used to be closer<br>Times have changed and we’re a little bit older<br>Didn’t know how to love you showed me how<br><br>Chorus:<br>Woah (oh oh oh)<br>This is not the end of the road<br>Hold me close<br>I know you miss that feelin’ of old<br>Don’t leave, me here<br>Don’t shed a single tear<br>All I know<br>This is not the end of the road<br><br>Bridge:<br>I gonna take your hand<br>Connect your heart with mine<br>Maybe this is love’s design for us<br>I know, you might be afraid<br>But baby so am I<br>We don’t have to let this story die<br>Don’t let this story die<br><br>Chorus:<br>Woah (oh oh oh)<br>This is not the end of the road<br>Hold me close<br>Let our happy ending unfold<br>Don’t leave, me here<br>We’ll rise above our fear<br>Don’t let go<br>This is not the end of the road",
         credits:[["Caleb Flores", "profile.html?name=caleb","Music, Lyrics, Vocals, Production"],
             ["Dean Marino", "profile.html?name=dean","Music, Lyrics, Vocals, Drums, Piano"],
             ["Carter Davidson", "profile.html?name=carter","Music"],
             ["Aidan McCarel", "profile.html?name=aidan","Electric Guitar"],
-            ["Austin Windau", "profile.html?name=austin","Bass Guitar"],
-            ["Cooper Chu", "profile.html?name=cooper","Assist in production"],
-            ["Clark Nelson", "profile.html?name=clark","Assist in production"],
+            ["Austin Windau", "profile.html?name=austin","Music, Assist in instrumentation"],
             ["Tyler Cuidon", "404.html","Assist in production"]],
         links:["404.html","404.html","404.html"]
     }
