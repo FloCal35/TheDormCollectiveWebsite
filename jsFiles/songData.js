@@ -133,7 +133,7 @@ const songs = {
             ["Dean Marino", "profile.html?name=dean","Music, Lyrics, Vocals, Drums, Piano"],
             ["Carter Davidson", "profile.html?name=carter","Music"],
             ["Aidan McCarel", "profile.html?name=aidan","Electric Guitar"],
-            ["Austin Windau", "profile.html?name=austin","Music, Assist in instrumentation"],
+            ["Austin Windau", "profile.html?name=austin","Music, Assist in instrumantation"],
             ["Tyler Cuidon", "404.html","Assist in production"]],
         links:["404.html","404.html","404.html"]
     }
