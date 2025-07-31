@@ -62,7 +62,7 @@ const songs = {
             ["Ari Andelman", "profile.html?name=ari","Vocals"],
             ["Carter Davidson", "profile.html?name=carter","Guitar"],
             ["Ella Markwald", "profile.html?name=ella","Vocals"]],
-        links:["https://music.apple.com/us/album/an-ode-to-life-pt-1-feat-ari-lucas/1814330186?i=1814330187","https://open.spotify.com/track/0CgcQtzoxARtL3FAFIpRhU?si=00e8121e57c8406a","404.html"]
+        links:["https://music.apple.com/us/album/an-ode-to-life-pt-1-feat-ari-lucas/1814330186?i=1814330187","https://open.spotify.com/track/0CgcQtzoxARtL3FAFIpRhU?si=00e8121e57c8406a","https://music.youtube.com/playlist?list=OLAK5uy_nb-hYeGiqHF7ldrhqSrc1GJTmPKhNpzqY&si=DmVgO_fX8lX-3LD_"]
     },
     "odeToLife":{
         image: "imgs/TillNightFinal.png",
@@ -76,7 +76,7 @@ const songs = {
             ["Ari Andelman", "profile.html?name=ari","Vocals"],
             ["Caleb Flores", "profile.html?name=caleb","Production"],
             ["Clark Nelson", "profile.html?name=clark","Assist in production"]],
-        links:["https://music.apple.com/us/album/an-ode-to-life-pt-1-feat-ari-lucas/1814330186?i=1814330187","https://open.spotify.com/track/0CgcQtzoxARtL3FAFIpRhU?si=00e8121e57c8406a","404.html"]
+        links:["https://music.apple.com/us/album/an-ode-to-life-pt-1-feat-ari-lucas/1814330186?i=1814330187","https://open.spotify.com/track/0CgcQtzoxARtL3FAFIpRhU?si=00e8121e57c8406a","https://music.youtube.com/watch?v=eflBz8zXQFY&si=OojtwHzXSmeWFmUp"]
     },
     "muddyWaters":{
         image: "imgs/TillNightFinal.png",
@@ -89,7 +89,7 @@ const songs = {
         credits:[["Aidan McCarel", "profile.html?name=aidan","Music, Guitar"],
             ["Cooper Chu", "profile.html?name=cooper","Synthesizer, Production"],
             ["Ella Markwald", "profile.html?name=ella","Assist in music"]],
-        links:["https://music.apple.com/us/album/muddy-waters/1814330186?i=1814330188","https://open.spotify.com/track/1YYDhodWMLp87hBRwJgiWU?si=a7dc5f4e6ed5411e","404.html"]
+        links:["https://music.apple.com/us/album/muddy-waters/1814330186?i=1814330188","https://open.spotify.com/track/1YYDhodWMLp87hBRwJgiWU?si=a7dc5f4e6ed5411e","https://music.youtube.com/watch?v=ml3n07JFNIM&si=q8dWb7Ai7SXxx_t8"]
     },
     "whenShesThere":{
         image: "imgs/TillNightFinal.png",
@@ -103,7 +103,7 @@ const songs = {
             ["Carter Davidson", "profile.html?name=carter","Music, Guitar, Production"],
             ["Caleb Flores", "profile.html?name=caleb","Production"],
             ["Clark Nelson", "profile.html?name=clark","Assist in production"]],
-        links:["https://music.apple.com/us/album/when-shes-there-feat-carter-davidson/1814330186?i=1814330189","https://open.spotify.com/track/5JdLANtTJEa2oqAKdjQyga?si=1633a399a8dd4656","404.html"]
+        links:["https://music.apple.com/us/album/when-shes-there-feat-carter-davidson/1814330186?i=1814330189","https://open.spotify.com/track/5JdLANtTJEa2oqAKdjQyga?si=1633a399a8dd4656","https://music.youtube.com/watch?v=efLSSNfRMLM&si=rBwfdUjc5-4FbmYX"]
     },
     "movement":{
         image: "imgs/TillNightFinal.png",
@@ -118,7 +118,7 @@ const songs = {
             ["Austin Windau", "profile.html?name=austin","Bass Guitar"],
             ["Caleb Flores", "profile.html?name=caleb","Production"],
             ["Clark Nelson", "profile.html?name=clark","Assist in music and production"]],
-        links:["https://music.apple.com/us/album/movement-feat-ella-markwald-demo/1814330186?i=1814330190","https://open.spotify.com/track/2UcpSu1DLALRirSzrCeyTK?si=8463b0e1df3b443f","404.html"]
+        links:["https://music.apple.com/us/album/movement-feat-ella-markwald-demo/1814330186?i=1814330190","https://open.spotify.com/track/2UcpSu1DLALRirSzrCeyTK?si=8463b0e1df3b443f","https://music.youtube.com/watch?v=WnexzfwG_aM&si=dsntt4snw2aleGp-"]
     },
     /*end of aidan's ep*/
     "endOfTheRoad":{
@@ -135,6 +135,6 @@ const songs = {
             ["Aidan McCarel", "profile.html?name=aidan","Electric Guitar"],
             ["Austin Windau", "profile.html?name=austin","Music, Assist in instrumantation"],
             ["Tyler Cuidon", "404.html","Assist in production"]],
-        links:["404.html","404.html","404.html"]
+        links:["https://music.apple.com/us/album/end-of-the-road-feat-dean-marino/1827707165?i=1827707166","https://open.spotify.com/track/7ioiFH2zJSixabqYGYHnNj?si=e937e5ae4006412a","https://youtu.be/hUSmARPI7E0?si=5eq37vX77eelRPeo"]
     }
 }
