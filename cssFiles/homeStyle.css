@@ -134,4 +134,7 @@ a{
     #openPopup.active {
        display:none;
     }
+    iframe.center{
+        display:none;
+    }
 }

@@ -19,7 +19,7 @@ closeBtn.addEventListener("click", () => {
 
 
 // Set your release date here (YYYY-MM-DD HH:MM:SS)
-const releaseDate = new Date("2025-07-25T23:00:00").getTime();
+/*const releaseDate = new Date("2025-07-25T23:00:00").getTime();
 
 const countdown = setInterval(() => {
 const now = new Date().getTime();
@@ -39,4 +39,4 @@ if (distance < 0) {
     clearInterval(countdown);
     document.getElementById("countdown").innerHTML = "Out now!";
 }
-}, 1000);
+}, 1000);*/
