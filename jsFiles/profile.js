@@ -30,7 +30,7 @@ const people={
         Img: "imgs/AustinProfile.png",
         Name: "Austin Windau",
         Instrument: "Bass Guitar",
-        Major: "Commercial Bass Guitar",
+        Major: "Music Business",
         About: "Austin Windau is a bassist at Belmont University. His musical path started in 6th grade in his hometown of Westlake, Ohio. He’s been into music since a young age and started out as a school of rock kid. Throughout high school, he spent most of his time practicing and teaching himself everything about music. In college, he’s a part of several groups: The Dorm Collective, Scuffed Animals, and The Lizzies.  He is currently in college figuring out where in the music world he fits best.",
         Email:"",
         Songs: ["endOfTheRoad","darlingGirl","movement"]
