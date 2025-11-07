@@ -290,7 +290,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 .title {
@@ -382,5 +382,5 @@ button:hover {
     }
 
 .zoom-on-hover:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
     }
