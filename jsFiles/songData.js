@@ -150,12 +150,12 @@ const songs = {
         links:["https://music.apple.com/us/album/end-of-the-road-feat-dean-marino/1827707165?i=1827707166","https://open.spotify.com/track/7ioiFH2zJSixabqYGYHnNj?si=e937e5ae4006412a","https://youtu.be/hUSmARPI7E0?si=5eq37vX77eelRPeo"]
     },
     "stillTheOne":{
-        image: "imgs/stillTheOneCover.png",
-        blurryImg:"imgs/stillTheOneBlur.png",
+        image: "imgs/StillTheOneCover.png",
+        blurryImg:"imgs/StillTheOneBlur.png",
         title: "You're Still the One",
         releaseDate: "December 26, 2025",
         genre: "Country Ballad",
-        about:"",
+        about:"We were asked to do a cover of Shania Twain's 'You're Still the One' for a wedding anniversary. We put our own spin on it, speeding it up and adding some new instruments. We were then given the opportunity to record with some amazing musicians in Ocean Way Studios in Nashville. It was an incredible experience and we are so happy with how it turned out.",
         lyrics:"",
         credits:[["Caleb Flores", "profile.html?name=caleb","Music, Background Vocals, Production"],
             ["Irene Streber", "404.html","Vocals"],
@@ -164,8 +164,7 @@ const songs = {
             ["Austin Windau", "profile.html?name=austin","Bass Guitar"],
             ["Sam Montenegro", "404.html","Piano"],
             ["Conner Nace", "404.html","Drums"],
-            ["Aidan McCarel", "profile.html?name=aidan","Music"],
-            ["<br>Special Thanks", "404.html","to Oceanway Studios for recording space"]],
+            ["Aidan McCarel", "profile.html?name=aidan","Music"]],
         links:["404.html","404.html","404.html"],
     }
 }
