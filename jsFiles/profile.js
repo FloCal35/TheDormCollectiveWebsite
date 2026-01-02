@@ -6,7 +6,7 @@ const people={
         Major: "Music Production",
         About: "Caleb Flores is a music major at Belmont University. His musical journey started at the age of 4 where he began his 14 year violin journey. A few years later, he began his 10 year career in the Birmingham Boys Choir. In high school, he travelled the country (and globe) as a saxaphone section leader for the Homewood Patriot Marching Band and a singer/dancer for The Network show choir. Performance isn’t the only aspect of music he enjoys. He was trained by a previous Belmont graduate in Audio Engineering Technology and has been able to work for clients in multiple venues like The Fisher Center. The Dorm Collective is special to him because collaboration is what brings out his creative spark.",
         Email: "flocal35@outlook.com",
-        Songs: ["endOfTheRoad","imperfect","darlingGirl","odeToLife","whenShesThere","movement"]
+        Songs: ["endOfTheRoad","imperfect","stillTheOne","darlingGirl","odeToLife","whenShesThere","movement"]
     },
     "aidan":{
         Img: "imgs/AidanProfile.png",
@@ -15,7 +15,7 @@ const people={
         Major: "Commercial Guitar",
         About:"Aidan McCarel, a guitarist at Belmont University, plays all different varieties of styles and genres but succeeds heavily in making music that makes people turn the radio off. Although he lives in Philedelphia, he is a native of Ohio and a die hard Cleveland Browns fan (He “Will absolutely tattoo his body once they win a championship”). Aidan has been writing music for the better part of 4 years and has always had a passion working with and being around people. He shares a bathroom with the members of the Dorm Collective during the Fall and Spring semester",
         Email:"",
-        Songs: ["endOfTheRoad","imperfect","darlingGirl","odeToLife","muddyWaters","whenShesThere","movement"]
+        Songs: ["endOfTheRoad","dreamin","imperfect","odeToLife","muddyWaters","whenShesThere","movement","stillTheOne","darlingGirl"]
     },
     "cooper":{
         Img: "imgs/CooperProfile.png",
@@ -24,7 +24,7 @@ const people={
         Major: "Audio Engineering Technology",
         About:"Cooper is a producer and audio engineer at Belmont University. A native of Chicago, he is a fan of electonic music, specifically dubstep and drum and bass. He is still trying to figure out which genre he produces best but is also helping produce for The Dorm Collective.",
         Email:"",
-        Songs: ["manInSpace","muddyWaters"]
+        Songs: ["dreamin","manInSpace","muddyWaters"]
     },
     "austin":{
         Img: "imgs/AustinProfile.png",
@@ -33,7 +33,7 @@ const people={
         Major: "Music Business",
         About: "Austin Windau is a bassist at Belmont University. His musical path started in 6th grade in his hometown of Westlake, Ohio. He’s been into music since a young age and started out as a school of rock kid. Throughout high school, he spent most of his time practicing and teaching himself everything about music. In college, he’s a part of several groups: The Dorm Collective, Scuffed Animals, and The Lizzies.  He is currently in college figuring out where in the music world he fits best.",
         Email:"",
-        Songs: ["endOfTheRoad","darlingGirl","movement"]
+        Songs: ["stillTheOne","endOfTheRoad","darlingGirl","movement"]
     },
     "dean":{
         Img:"imgs/DeanProfile.JPG",
@@ -79,6 +79,42 @@ const people={
         About: "Clark (Myth Six) is an artist/producer who creates imaginative and sonically rich electronic music. He began his music production journey by uploading beats to SoundCloud, and quickly built notoriety as a composer within an online game development community. He has worked with The Dorm Collective as a pianist and an assistant producer.",
         Email:"",
         Songs: ["imperfect","darlingGirl","odeToLife","whenShesThere","movement"]
+    },
+    "irene":{
+        Img:"imgs/TDCTransB.png",
+        Name: "Irene Streber",
+        Instrument:"Voice",
+        Major: "Commercial Voice",
+        About: "",
+        Email:"",
+        Songs: ["stillTheOne"]
+    },
+    "jolie":{
+        Img:"imgs/TDCTransB.png",
+        Name: "Jolie Claire",
+        Instrument:"Voice",
+        Major: "Commercial Voice",
+        About: "",
+        Email:"",
+        Songs: ["stillTheOne"]
+    },
+    "sam":{
+        Img:"imgs/TDCTransB.png",
+        Name: "Sam Montenegro",
+        Instrument:"Piano",
+        Major: "",
+        About: "",
+        Email:"",
+        Songs: ["stillTheOne"]
+    },
+    "conner":{
+        Img:"imgs/TDCTransB.png",
+        Name: "Conner Nace",
+        Instrument:"Drums, Voice",
+        Major: "Commercial Voice",
+        About: "",
+        Email:"",
+        Songs: ["stillTheOne"]
     }
 }
 
