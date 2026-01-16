@@ -13,9 +13,3 @@ The Dorm Collective is a community of student musicians that serves as both a co
 ## 🌐 Live Site
 
 [View the Website](https://flocal35.github.io/TheDormCollectiveWebsite/) <!-- Replace with actual URL if deployed -->
-
-## 🛠️ Built With
-
-- **HTML** for structure
-- **CSS** for design and layout
-- **JavaScript** for interactivity
