@@ -164,7 +164,22 @@ const songs = {
             ["Austin Windau", "profile.html?name=austin","Bass Guitar"],
             ["Sam Montenegro", "profile.html?name=sam","Piano"],
             ["Conner Nace", "profile.html?name=conner","Drums"],
-            ["Aidan McCarel", "profile.html?name=aidan","Music"]],
+            ["Aidan McCarel", "profile.html?name=aidan","Assist with music"]],
+        links:["https://music.apple.com/us/album/youre-still-the-one-feat-irene-streber/1862387746?i=1862387748","https://open.spotify.com/track/0tLOnwHu6Y3hJtcKOtnfz6?si=fb15b0a43bb8419c","https://music.youtube.com/watch?v=ELiVju27pxw&si=eGVWxuhj77hZ2dN5"],
+    },
+    "heavensLine":{
+        image: "imgs/TDCTransB.png",
+        blurryImg:"imgs/BandGlitch.png",
+        title: "Heaven's Line",
+        releaseDate: "February, 2026",
+        genre: "Hip Hop/Rap",
+        about:"",
+        lyrics:"",
+        credits:[["Aidan McCarel", "profile.html?name=aidan","Vocals, Music, Lyrics"],
+            ["Carter Davidson", "profile.html?name=carter","Production, Music, Guitar"],
+            ["Dean Marino", "profile.html?name=dean","Vocals, Lyrics"],
+            ["Caleb Flores", "profile.html?name=caleb","Production"],
+            ["Irene Streber", "profile.html?name=irene","Background Vocals"]],
         links:["404.html","404.html","404.html"],
     }
 }
