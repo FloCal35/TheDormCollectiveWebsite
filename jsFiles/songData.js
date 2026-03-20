@@ -168,10 +168,10 @@ const songs = {
         links:["https://music.apple.com/us/album/youre-still-the-one-feat-irene-streber/1862387746?i=1862387748","https://open.spotify.com/track/0tLOnwHu6Y3hJtcKOtnfz6?si=fb15b0a43bb8419c","https://music.youtube.com/watch?v=ELiVju27pxw&si=eGVWxuhj77hZ2dN5"],
     },
     "heavensLine":{
-        image: "imgs/TDCTransB.png",
-        blurryImg:"imgs/BandGlitch.png",
+        image: "imgs/HeavensLine.png",
+        blurryImg:"imgs/HLBlur.png",
         title: "Heaven's Line",
-        releaseDate: "February, 2026",
+        releaseDate: "March 20, 2026",
         genre: "Hip Hop/Rap",
         about:"",
         lyrics:"",
@@ -180,6 +180,6 @@ const songs = {
             ["Dean Marino", "profile.html?name=dean","Vocals, Lyrics"],
             ["Caleb Flores", "profile.html?name=caleb","Production"],
             ["Irene Streber", "profile.html?name=irene","Background Vocals"]],
-        links:["404.html","404.html","404.html"],
+        links:["https://music.apple.com/us/album/heavens-line-feat-carter-davidson/1883584220?i=1883584222","https://open.spotify.com/track/7lcOHGAfzEG4WeEqtjMCAR?si=c6f3e7f0af594a01","https://music.youtube.com/watch?v=DD8KLGTCM-s&si=fvIXFB9rtCm07Krl"],
     }
 }
